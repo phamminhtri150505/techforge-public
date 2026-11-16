@@ -81,10 +81,10 @@ Tích hợp trợ lý LLM là tùy chọn và tắt mặc định. Hệ thống 
 
 Bản công khai chỉ đóng gói những ảnh sản phẩm có căn cứ phân phối, có [danh sách ghi công và giấy phép](docs/IMAGE_CREDITS.md). Linh kiện thiếu ảnh vẫn có đủ dữ liệu danh mục và Builder. Giao diện dùng minh họa riêng hoặc hiển thị trạng thái chưa có ảnh. Giấy phép của ảnh và thư viện áp dụng riêng cho từng tài nguyên. Bản công khai phục vụ việc xem và nghiệm thu đồ án.
 
-## Quy trình phát triển và kiểm chứng
+## Phương pháp thực hiện và kiểm chứng
 
-TECHFORGE được xây dựng từ nhu cầu tra cứu linh kiện, tự lựa chọn cấu hình PC theo ngân sách và kiểm tra tương thích trước khi quyết định. Người thực hiện đề tài xác định mục tiêu, phạm vi và các yêu cầu chức năng; lựa chọn phương án giao diện, phản hồi các vấn đề phát sinh và xem xét kết quả nghiệm thu.
+TECHFORGE được hình thành từ nhu cầu lựa chọn linh kiện, xây dựng hoặc nâng cấp máy tính theo ngân sách, đồng thời kiểm tra các điều kiện tương thích. Người thực hiện đề tài xác định bài toán, phạm vi Desktop Web và các yêu cầu chức năng; lựa chọn phương án giao diện, phản hồi các vấn đề phát sinh và xem xét kết quả nghiệm thu.
 
-Trong quá trình hiện thực hóa, **các công cụ AI tạo sinh được sử dụng đáng kể**, đặc biệt OpenAI Codex hỗ trợ tạo và chỉnh sửa phần lớn mã nguồn theo yêu cầu mô tả bằng ngôn ngữ tự nhiên. ChatGPT hỗ trợ phân tích, rà soát giao diện và biên soạn tài liệu. Việc sử dụng AI được công khai nhằm làm rõ phương pháp thực hiện, không đồng nghĩa với việc toàn bộ mã nguồn được viết thủ công.
+Quá trình phát triển có sự hỗ trợ đáng kể của AI tạo sinh. OpenAI Codex được sử dụng chủ yếu để sinh, điều chỉnh và tích hợp mã nguồn theo các yêu cầu bằng ngôn ngữ tự nhiên; ChatGPT hỗ trợ hệ thống hóa yêu cầu, rà soát giao diện và biên soạn tài liệu. Các công cụ này hỗ trợ quá trình hiện thực hóa, còn việc lựa chọn yêu cầu, quyết định phạm vi và xác nhận nội dung công bố thuộc trách nhiệm của người thực hiện đề tài.
 
-Các chức năng và kết quả được trình bày trong đồ án có căn cứ đối chiếu từ mã nguồn, bộ kiểm thử tự động và ảnh nghiệm thu. **Kết quả kiểm thử trong môi trường QA không thay thế cho đánh giá độc lập hoặc kiểm chứng hiệu quả thực tế với người dùng.**
+Việc kiểm chứng dựa trên mã nguồn, các trường hợp kiểm thử tự động và ảnh chụp nghiệm thu. Kết quả trong môi trường QA phản ánh những trường hợp đã thử nghiệm, không đồng nghĩa với việc hệ thống đã được đánh giá hiệu quả thực tế bởi người dùng hoặc xác nhận vận hành ở môi trường production.
