@@ -1,0 +1,59 @@
+/* Chỉ trình bày UI-06; màu lấy từ theme hiện có, không thay kết luận nghiệp vụ. */
+.builder-page .summary-column { position: static; }
+@media (min-width: 992px) { .builder-page .summary-column.summary-fits { position: sticky; } }
+.builder-page .summary-column .summary-card { background: var(--surface-raised); }
+.builder-page .report-guidance {
+    padding: 22px 24px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    border-radius: 14px;
+}
+.builder-page .report-guidance h3 { font-size: 20px; font-weight: 700; margin: 0 0 10px; }
+.builder-page .report-guidance p { max-width: 85ch; line-height: 1.75; margin-bottom: 14px; }
+.builder-page .report-guidance p:last-child { margin-bottom: 0; }
+.builder-page .report-guidance-conflict { border-left-color: var(--bs-danger-text-emphasis); background: var(--bs-danger-bg-subtle); }
+.builder-page .report-guidance-conflict h3 { color: var(--bs-danger-text-emphasis); }
+.builder-page .rule-counts { display: flex; flex-wrap: wrap; gap: 10px 24px; font-size: 13px; margin: 18px 0; font-variant-numeric: tabular-nums; }
+.builder-page .rule-group { margin: 14px 0; padding: 20px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.builder-page .rule-group-conflict { border-left: 4px solid var(--bs-danger-text-emphasis); }
+.builder-page .rule-group > h3 { font-size: 18px; font-weight: 700; margin-bottom: 18px; }
+.builder-page .rule-group > summary { cursor: pointer; line-height: 1.6; }
+.builder-page .rule-group-title { font-size: 17px; font-weight: 650; }
+.builder-page .rule-group > summary > span:last-child { margin-left: 14px; color: var(--muted); font-size: 13px; }
+.builder-page .grouped-rule-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.builder-page .grouped-rule-grid .rule-card { margin: 0; min-width: 0; }
+.builder-page .rule-card h4 { font-size: 14px; font-weight: 650; margin: 0; line-height: 1.6; }
+.builder-page .checked-stale-notice, .builder-page .requirements-pending-notice {
+    color: var(--bs-warning-text-emphasis);
+    background: var(--bs-warning-bg-subtle);
+    border: 1px solid var(--bs-warning-border-subtle);
+    border-radius: 10px;
+    padding: 14px 18px;
+    line-height: 1.75;
+    margin: 16px 0;
+}
+/* Báo cáo cũ vẫn phải đọc được, đặc biệt là CONFLICT; nhãn giải thích thay cho làm mờ toàn vùng. */
+.builder-page .builder-checked-results.is-stale #report,
+.builder-page .builder-checked-results.is-stale #assistant,
+.builder-page #report.is-stale, .builder-page #assistant.is-stale { opacity: 1; }
+.builder-page .needs-analysis { background: var(--paper-secondary); border-left: 3px solid var(--control-border); padding: 18px 20px; border-radius: 0 10px 10px 0; }
+.builder-page .needs-analysis h3 { font-size: 18px; font-weight: 650; margin-bottom: 16px; }
+.builder-page .needs-messages { padding-left: 20px; line-height: 1.8; }
+.builder-page .assistant-technical { border-top: 1px solid var(--line); padding-top: 16px; }
+.builder-page .assistant-technical summary { cursor: pointer; color: var(--ink); }
+.builder-page .requirements-draft { border-left-color: var(--bs-warning-text-emphasis); }
+.builder-page [data-requirements-form] details { padding: 12px 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--paper-secondary); }
+.builder-page [data-requirements-form] summary { cursor: pointer; font-weight: 600; }
+.builder-page .recommendation-results { border-top: 1px solid var(--line); padding-top: 20px; }
+.builder-page .recommendation-results .summary-card { display: flex; flex-direction: column; background: var(--paper-secondary); border-radius: 14px; border-top-width: 1px; }
+.builder-page .recommendation-results h4 { font-size: 17px; line-height: 1.4; }
+.builder-page .recommendation-price strong { display: block; color: var(--ink); font-size: 22px; font-variant-numeric: tabular-nums; }
+.builder-page .recommendation-results li { overflow-wrap: anywhere; }
+.builder-page .recommendation-parts > summary { cursor: pointer; font-weight: 600; }
+.builder-page .recommendation-apply { margin-top: auto; }
+.builder-page .rule-group > summary:focus-visible, .builder-page .assistant-technical > summary:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 6px; border-radius: 3px;
+}
+/* Giữ khả năng xuống dòng đã có, không thêm mục tiêu thiết kế/QA mobile. */
+@media (max-width: 767px) { .builder-page .grouped-rule-grid { grid-template-columns: 1fr; } }

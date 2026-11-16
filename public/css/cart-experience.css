@@ -1,0 +1,24 @@
+/* UI12: giữ nguyên giỏ rỗng, chỉ bổ sung cách trình bày giỏ có linh kiện. */
+.cart-page .cart-line {align-items:flex-start;gap:18px;flex-wrap:wrap}
+.cart-page .cart-product-image {display:flex;align-items:center;justify-content:center;width:88px;height:88px;border-radius:12px;background:#fff;flex-shrink:0;overflow:hidden}
+.cart-page .cart-product-image img {width:100%;height:100%;padding:6px;object-fit:contain}
+.cart-page .cart-line>.flex-grow-1 {min-width:0;flex-basis:240px}
+.cart-page .cart-line h2 {font-size:16px;line-height:1.5;overflow-wrap:anywhere}
+.cart-page .cart-line h2 a {color:var(--ink);text-decoration:none}
+.cart-page .cart-line h2 a:hover {color:var(--accent);text-decoration:underline}
+.cart-page .cart-line form {flex-wrap:wrap}
+.cart-page .cart-remove-line {margin-top:6px}
+.cart-page .cart-remove-line button {padding-left:0}
+.cart-page .cart-line>strong {margin-left:auto;font-variant-numeric:tabular-nums}
+.cart-page .money-row {gap:16px;flex-wrap:wrap}
+.cart-page .money-row strong {text-align:right;font-variant-numeric:tabular-nums}
+.cart-page .cart-clear-confirm>summary {cursor:pointer;color:var(--bs-danger-text-emphasis);font-size:14px}
+.cart-page .cart-clear-body {margin-top:12px;padding:16px;border:1px solid var(--bs-danger-border-subtle);border-radius:12px;font-size:14px;line-height:1.7}
+.cart-page .cart-clear-body form {display:flex;flex-wrap:wrap;gap:10px}
+.cart-page .cart-edit-confirm>summary,.cart-page .cart-rule-details>summary {cursor:pointer;font-size:14px;line-height:1.7}
+.cart-page .cart-edit-confirm>summary {color:var(--accent)}
+.cart-page .cart-build-scope p {line-height:1.7}
+.cart-page .cart-rule-details li {margin-bottom:10px;line-height:1.7;overflow-wrap:anywhere}
+.cart-page .cart-simulation-note {font-size:13px;line-height:1.7;color:var(--muted);border-left:2px solid var(--accent);padding-left:12px;margin-bottom:22px}
+.cart-page .cart-unavailable-total p {color:var(--muted);line-height:1.7}
+.cart-page :is(a,button,input,textarea,summary):focus-visible {outline:3px solid var(--accent);outline-offset:4px}

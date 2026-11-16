@@ -1,0 +1,38 @@
+/* UI-11: chỉ trình bày bản chia sẻ; không tác động trang tham khảo hoặc PC Builder. */
+.shared-page .shared-heading {max-width:920px;margin:10px 0 24px}
+.shared-page .shared-heading h1 {font-size:clamp(28px,2.5vw,38px);line-height:1.2;margin-bottom:14px;overflow-wrap:anywhere}
+.shared-page .shared-heading p:not(.eyebrow) {color:var(--muted);line-height:1.7;margin-bottom:12px}
+.shared-page .shared-heading>a,.shared-page .shared-check-link {color:var(--accent);font-size:14px}
+.shared-page .shared-overview {display:flex;align-items:center;gap:30px;flex-wrap:wrap;padding:18px 22px;border:1px solid var(--line);border-radius:14px;background:var(--surface);margin-bottom:26px;font-size:14px}
+.shared-page .shared-overview strong {font-size:21px;margin-right:6px}
+.shared-page .shared-overview .status-badge {margin-left:auto;text-decoration:none}
+.shared-page .shared-layout {display:grid;grid-template-columns:minmax(0,1.9fr) minmax(320px,1fr);gap:26px;align-items:start}
+.shared-page .shared-parts {border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--surface)}
+.shared-page .shared-part {display:grid;grid-template-columns:88px minmax(0,1fr) 175px;align-items:start;gap:18px;padding:20px;border-bottom:1px solid var(--line)}
+.shared-page .shared-part.shared-part-without-photo {grid-template-columns:minmax(0,1fr) 175px}
+.shared-page .shared-part:last-child {border-bottom:0}
+.shared-page .shared-image {display:flex;width:88px;height:88px;border-radius:12px;background:#fff;align-items:center;justify-content:center;overflow:hidden}
+.shared-page .shared-image img {max-width:100%;height:100%;object-fit:contain;padding:6px}
+.shared-page .shared-part-info {min-width:0}
+.shared-page .shared-part h3 {font-size:16px;line-height:1.5;margin:0 0 6px;overflow-wrap:anywhere}
+.shared-page .shared-part h3 a {color:var(--ink);text-decoration:none}
+.shared-page .shared-part h3 a:hover {color:var(--accent);text-decoration:underline}
+.shared-page .shared-source {font-size:12px;color:var(--muted);line-height:1.7;overflow-wrap:anywhere}
+.shared-page .shared-source summary {cursor:pointer}
+.shared-page .shared-source p {margin:8px 0}
+.shared-page .shared-price {text-align:right;font-variant-numeric:tabular-nums}
+.shared-page .shared-price strong {display:block;font-size:17px;margin-bottom:6px}
+.shared-page .shared-price span {display:block;color:var(--muted);font-size:12px;line-height:1.7}
+.shared-page .shared-summary {padding:24px;border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:16px;background:var(--surface)}
+.shared-page .shared-summary h2 {font-size:24px;margin-bottom:18px}
+.shared-page .shared-total {font-size:clamp(25px,2.2vw,34px);font-weight:750;letter-spacing:-1px;overflow-wrap:anywhere}
+.shared-page .shared-confirm {margin-top:20px}
+.shared-page .shared-confirm>summary {white-space:normal;list-style:none}
+.shared-page .shared-confirm-body {padding-top:20px;font-size:14px;line-height:1.75}
+.shared-page .shared-confirm h3 {font-size:18px}
+.shared-page #shared-checks {scroll-margin-top:110px;margin-top:30px}
+.shared-page :is(a,button,summary,input):focus-visible {outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:1199px){.shared-page .shared-part{grid-template-columns:76px minmax(0,1fr);gap:14px}.shared-page .shared-image{width:76px;height:76px}.shared-page .shared-price{grid-column:2;text-align:left}}
+@media(max-width:1199px){.shared-page .shared-part.shared-part-without-photo{grid-template-columns:minmax(0,1fr)}.shared-page .shared-part-without-photo .shared-price{grid-column:1}}
+@media(max-width:991px){.shared-page .shared-layout{grid-template-columns:1fr}.shared-page .shared-overview .status-badge{margin-left:0}}
+@media(prefers-reduced-motion:reduce){.shared-page *{scroll-behavior:auto!important}}

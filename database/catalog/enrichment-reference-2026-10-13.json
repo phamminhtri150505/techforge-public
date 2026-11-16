@@ -1,0 +1,269 @@
+[
+    {
+        "before": {
+            "sku": "MKT-MB-ASUS-TUF-B650PLUS-WIFI",
+            "name": "ASUS TUF GAMING B650-PLUS WIFI",
+            "type": "mainboard",
+            "price": 0,
+            "specifications": {
+                "wifi": true,
+                "socket": "AM5",
+                "chipset": "B650",
+                "sata_ports": 4,
+                "cpu_support": [
+                    {
+                        "status": "bios_update",
+                        "checked_on": "2026-10-13",
+                        "model_code": "AMD Ryzen 5 7500F",
+                        "source_url": "https://www.asus.com/de/supportonly/tuf%20gaming%20b650-plus%20wifi/helpdesk_cpu/",
+                        "minimum_bios": "all",
+                        "pcb_revision": "all"
+                    },
+                    {
+                        "status": "bios_update",
+                        "checked_on": "2026-10-13",
+                        "model_code": "AMD Ryzen 7 7800X3D",
+                        "source_url": "https://www.asus.com/de/supportonly/tuf%20gaming%20b650-plus%20wifi/helpdesk_cpu/",
+                        "minimum_bios": "1409",
+                        "pcb_revision": "all"
+                    }
+                ],
+                "form_factor": "ATX",
+                "memory_type": "DDR5",
+                "memory_slots": 4,
+                "m2_nvme_slots": 3,
+                "max_memory_gb": 256
+            },
+            "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/ Chưa đối chiếu điều kiện khe lưu trữ theo CPU; chưa xác minh BIOS. Chưa xác minh giá/tồn kho Việt Nam. Bổ sung số cổng/khe từ ASUS techspec11/10/2026:3M.2 PCIe/4SATA. M.2_3 chia lane PCIEX16_2; chưa kiểm tra lane/mode CPU, BIOS/QVL. cpu_support giữ null. Bổ sung một phần bảng CPU/BIOS hãng ngày 13/10/2026; chưa xác minh BIOS đang cài. Các CPU chưa ghi trong danh sách vẫn WARNING, không có nghĩa là không hỗ trợ.",
+            "is_active": true,
+            "brand": "ASUS",
+            "availability": "contact",
+            "manufacturer_code": "TUF GAMING B650-PLUS WIFI",
+            "catalog_sources": [
+                {
+                    "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/",
+                    "checked_on": "2026-10-08"
+                },
+                {
+                    "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/",
+                    "checked_on": "2026-10-11"
+                },
+                {
+                    "url": "https://www.asus.com/de/supportonly/tuf%20gaming%20b650-plus%20wifi/helpdesk_cpu/",
+                    "checked_on": "2026-10-13"
+                }
+            ],
+            "price_kind": "unknown",
+            "price_source_url": null,
+            "price_observed_on": null,
+            "price_retailer": null,
+            "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+        },
+        "after": {
+            "sku": "MKT-MB-ASUS-TUF-B650PLUS-WIFI",
+            "name": "ASUS TUF GAMING B650-PLUS WIFI",
+            "type": "mainboard",
+            "price": 5999000,
+            "specifications": {
+                "wifi": true,
+                "socket": "AM5",
+                "chipset": "B650",
+                "sata_ports": 4,
+                "cpu_support": [
+                    {
+                        "status": "bios_update",
+                        "checked_on": "2026-10-13",
+                        "model_code": "AMD Ryzen 5 7500F",
+                        "source_url": "https://www.asus.com/de/supportonly/tuf%20gaming%20b650-plus%20wifi/helpdesk_cpu/",
+                        "minimum_bios": "all",
+                        "pcb_revision": "all"
+                    },
+                    {
+                        "status": "bios_update",
+                        "checked_on": "2026-10-13",
+                        "model_code": "AMD Ryzen 7 7800X3D",
+                        "source_url": "https://www.asus.com/de/supportonly/tuf%20gaming%20b650-plus%20wifi/helpdesk_cpu/",
+                        "minimum_bios": "1409",
+                        "pcb_revision": "all"
+                    }
+                ],
+                "form_factor": "ATX",
+                "memory_type": "DDR5",
+                "memory_slots": 4,
+                "m2_nvme_slots": 3,
+                "max_memory_gb": 256
+            },
+            "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/ Chưa đối chiếu điều kiện khe lưu trữ theo CPU; chưa xác minh BIOS. Chưa xác minh giá/tồn kho Việt Nam. Bổ sung số cổng/khe từ ASUS techspec11/10/2026:3M.2 PCIe/4SATA. M.2_3 chia lane PCIEX16_2; chưa kiểm tra lane/mode CPU, BIOS/QVL. cpu_support giữ null. Bổ sung một phần bảng CPU/BIOS hãng ngày 13/10/2026; chưa xác minh BIOS đang cài. Các CPU chưa ghi trong danh sách vẫn WARNING, không có nghĩa là không hỗ trợ. Rà lại techspec hãng 13/10/2026: DDR5 tối đa 256GB/4 DIMM, tổng 3 M.2 và 4 SATA; không bổ sung kết luận QVL/BIOS hay lane-sharing.",
+            "is_active": true,
+            "brand": "ASUS",
+            "availability": "contact",
+            "manufacturer_code": "TUF GAMING B650-PLUS WIFI",
+            "catalog_sources": [
+                {
+                    "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/",
+                    "checked_on": "2026-10-08"
+                },
+                {
+                    "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/",
+                    "checked_on": "2026-10-11"
+                },
+                {
+                    "url": "https://www.asus.com/de/supportonly/tuf%20gaming%20b650-plus%20wifi/helpdesk_cpu/",
+                    "checked_on": "2026-10-13"
+                },
+                {
+                    "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/",
+                    "checked_on": "2026-10-13"
+                }
+            ],
+            "price_kind": "retail_reference",
+            "price_source_url": "https://hacom.vn/mainboard-asus-tuf-gaming-b650-plus-wifi",
+            "price_observed_on": "2026-10-13",
+            "price_retailer": "HACOM",
+            "price_note": "Giá mua online 5.999.000 VND đã VAT, không lấy giá gạch 6.599.000. Trang đúng B650-PLUS WIFI ghi Order trước – giao sau/Hàng đặt trước; giữ Liên hệ, không xác nhận có hàng. Không lấy giá B650M hoặc mẫu không Wi-Fi. Giá web có thể lưu đệm, không cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+        }
+    },
+    {
+        "before": {
+            "sku": "MKT-RAM-KF560C36BBE2K2-32",
+            "name": "Kingston FURY Beast Black EXPO 32GB (2x16) DDR5 6000 CL36",
+            "type": "ram",
+            "price": 14590000,
+            "specifications": {
+                "modules": 2,
+                "profile": "AMD EXPO",
+                "speed_mts": 6000,
+                "capacity_gb": 32,
+                "cas_latency": 36,
+                "memory_type": "DDR5"
+            },
+            "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Không phải kit CL30 KF560C30BBEK2-32. Chưa xác nhận tồn kho Việt Nam.",
+            "is_active": true,
+            "brand": "Kingston",
+            "availability": "contact",
+            "manufacturer_code": "KF560C36BBE2K2-32",
+            "catalog_sources": [
+                {
+                    "url": "https://www.kingston.com/datasheets/KF560C36BBE2K2-32.pdf",
+                    "checked_on": "2026-10-08"
+                }
+            ],
+            "price_kind": "retail_reference",
+            "price_source_url": "https://hacom.vn/ram-kingston-fury-beast-black-expo-32gb-ddr5-6000mhz-kf560c36bbe2k2-32",
+            "price_observed_on": "2026-10-08",
+            "price_retailer": "HACOM",
+            "price_note": "Giá online trang chi tiết 14.590.000 ₫ gồm VAT, khác trang danh mục 14.490.000 ₫; ưu tiên trang chi tiết, cần hỏi lại cửa hàng. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+        },
+        "after": {
+            "sku": "MKT-RAM-KF560C36BBE2K2-32",
+            "name": "Kingston FURY Beast Black EXPO 32GB (2x16) DDR5 6000 CL36",
+            "type": "ram",
+            "price": 14590000,
+            "specifications": {
+                "modules": 2,
+                "profile": "AMD EXPO v1.1 / Intel XMP 3.0",
+                "speed_mts": 6000,
+                "capacity_gb": 32,
+                "cas_latency": 36,
+                "memory_type": "DDR5",
+                "height_mm": 34.9
+            },
+            "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Không phải kit CL30 KF560C30BBEK2-32. Chưa xác nhận tồn kho Việt Nam. Datasheet đúng mã đối chiếu 13/10/2026: hỗ trợ EXPO v1.1 và XMP 3.0, cao 34.9mm; JEDEC mặc định 4800 CL40. 6000 là profile, không bảo đảm tự đạt khi chưa cấu hình; chưa kiểm tra QVL/khoảng hở RAM-tản.",
+            "is_active": true,
+            "brand": "Kingston",
+            "availability": "contact",
+            "manufacturer_code": "KF560C36BBE2K2-32",
+            "catalog_sources": [
+                {
+                    "url": "https://www.kingston.com/datasheets/KF560C36BBE2K2-32.pdf",
+                    "checked_on": "2026-10-08"
+                },
+                {
+                    "url": "https://www.kingston.com/datasheets/KF560C36BBE2K2-32.pdf",
+                    "checked_on": "2026-10-13"
+                }
+            ],
+            "price_kind": "retail_reference",
+            "price_source_url": "https://hacom.vn/ram-kingston-fury-beast-black-expo-32gb-ddr5-6000mhz-kf560c36bbe2k2-32",
+            "price_observed_on": "2026-10-13",
+            "price_retailer": "HACOM",
+            "price_note": "Đối chiếu lại trang chi tiết đúng Mã Part KF560C36BBE2K2-32: giá online 14.590.000 VND đã VAT. Tiêu đề nhóm cả bao bì WP; yêu cầu đúng mã kit khi mua. Không lấy giá trang danh mục khác hoặc áp cho CL30. Giữ Liên hệ, chưa xác nhận tồn kho/bảo hành thực tế. Điện áp theo datasheet hãng (profile 6000 1.35V), không lấy 1.25V mô tả chung của cửa hàng. Giá web có thể lưu đệm; đơn TECHFORGE chỉ mô phỏng."
+        }
+    },
+    {
+        "before": {
+            "sku": "MKT-RAM-KF560C30BBEK2-32",
+            "name": "Kingston FURY Beast EXPO 32GB (2x16) DDR5-6000 CL30",
+            "type": "ram",
+            "price": 0,
+            "specifications": {
+                "modules": 2,
+                "profile": "EXPO 1.1 / XMP 3.0",
+                "height_mm": 34.9,
+                "speed_mts": 6000,
+                "capacity_gb": 32,
+                "cas_latency": 30,
+                "memory_type": "DDR5"
+            },
+            "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf 6000 MT/s là profile OC, JEDEC 4800; chưa xác minh QVL. Chưa xác minh giá/tồn kho Việt Nam. Bổ sung chiều cao34.9mm cóheatsink từ datasheet đúng KF560C30BBEK2-32 mở11/10/2026. JEDEC mặc định4800CL40;6000CL30 qua EXPO/XMP. Chỉ mô tả, chưa kiểm tra khoảng hởRAM/QVL.",
+            "is_active": true,
+            "brand": "Kingston",
+            "availability": "contact",
+            "manufacturer_code": "KF560C30BBEK2-32",
+            "catalog_sources": [
+                {
+                    "url": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+                    "checked_on": "2026-10-08"
+                },
+                {
+                    "url": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+                    "checked_on": "2026-10-11"
+                }
+            ],
+            "price_kind": "unknown",
+            "price_source_url": null,
+            "price_observed_on": null,
+            "price_retailer": null,
+            "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+        },
+        "after": {
+            "sku": "MKT-RAM-KF560C30BBEK2-32",
+            "name": "Kingston FURY Beast EXPO 32GB (2x16) DDR5-6000 CL30",
+            "type": "ram",
+            "price": 0,
+            "specifications": {
+                "modules": 2,
+                "profile": "AMD EXPO v1.1 / Intel XMP 3.0",
+                "height_mm": 34.9,
+                "speed_mts": 6000,
+                "capacity_gb": 32,
+                "cas_latency": 30,
+                "memory_type": "DDR5"
+            },
+            "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf 6000 MT/s là profile OC, JEDEC 4800; chưa xác minh QVL. Chưa xác minh giá/tồn kho Việt Nam. Bổ sung chiều cao34.9mm cóheatsink từ datasheet đúng KF560C30BBEK2-32 mở11/10/2026. JEDEC mặc định4800CL40;6000CL30 qua EXPO/XMP. Chỉ mô tả, chưa kiểm tra khoảng hởRAM/QVL. Datasheet đúng mã đối chiếu 13/10/2026: hỗ trợ EXPO v1.1 và XMP 3.0, cao 34.9mm; JEDEC mặc định 4800 CL40. 6000 là profile, không bảo đảm tự đạt khi chưa cấu hình; chưa kiểm tra QVL/khoảng hở RAM-tản.",
+            "is_active": true,
+            "brand": "Kingston",
+            "availability": "contact",
+            "manufacturer_code": "KF560C30BBEK2-32",
+            "catalog_sources": [
+                {
+                    "url": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+                    "checked_on": "2026-10-08"
+                },
+                {
+                    "url": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+                    "checked_on": "2026-10-11"
+                },
+                {
+                    "url": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+                    "checked_on": "2026-10-13"
+                }
+            ],
+            "price_kind": "unknown",
+            "price_source_url": null,
+            "price_observed_on": null,
+            "price_retailer": null,
+            "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+        }
+    }
+]

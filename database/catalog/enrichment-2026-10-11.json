@@ -1,0 +1,285 @@
+[
+  {
+    "before": {
+      "sku": "MKT-MB-ASUS-TUF-B650PLUS-WIFI",
+      "name": "ASUS TUF GAMING B650-PLUS WIFI",
+      "type": "mainboard",
+      "price": 0,
+      "specifications": {
+        "wifi": true,
+        "socket": "AM5",
+        "chipset": "B650",
+        "sata_ports": null,
+        "cpu_support": null,
+        "form_factor": "ATX",
+        "memory_type": "DDR5",
+        "memory_slots": 4,
+        "m2_nvme_slots": null,
+        "max_memory_gb": 256
+      },
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/ Chưa đối chiếu điều kiện khe lưu trữ theo CPU; chưa xác minh BIOS. Chưa xác minh giá/tồn kho Việt Nam.",
+      "is_active": true,
+      "brand": "ASUS",
+      "availability": "contact",
+      "manufacturer_code": "TUF GAMING B650-PLUS WIFI",
+      "catalog_sources": [
+        {
+          "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_kind": "unknown",
+      "price_source_url": null,
+      "price_observed_on": null,
+      "price_retailer": null,
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+    },
+    "after": {
+      "sku": "MKT-MB-ASUS-TUF-B650PLUS-WIFI",
+      "name": "ASUS TUF GAMING B650-PLUS WIFI",
+      "type": "mainboard",
+      "price": 0,
+      "specifications": {
+        "wifi": true,
+        "socket": "AM5",
+        "chipset": "B650",
+        "sata_ports": 4,
+        "cpu_support": null,
+        "form_factor": "ATX",
+        "memory_type": "DDR5",
+        "memory_slots": 4,
+        "m2_nvme_slots": 3,
+        "max_memory_gb": 256
+      },
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/ Chưa đối chiếu điều kiện khe lưu trữ theo CPU; chưa xác minh BIOS. Chưa xác minh giá/tồn kho Việt Nam. Bổ sung số cổng/khe từ ASUS techspec11/10/2026:3M.2 PCIe/4SATA. M.2_3 chia lane PCIEX16_2; chưa kiểm tra lane/mode CPU, BIOS/QVL. cpu_support giữ null.",
+      "is_active": true,
+      "brand": "ASUS",
+      "availability": "contact",
+      "manufacturer_code": "TUF GAMING B650-PLUS WIFI",
+      "catalog_sources": [
+        {
+          "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/",
+          "checked_on": "2026-10-11"
+        }
+      ],
+      "price_kind": "unknown",
+      "price_source_url": null,
+      "price_observed_on": null,
+      "price_retailer": null,
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-RAM-KF560C30BBEK2-32",
+      "name": "Kingston FURY Beast EXPO 32GB (2x16) DDR5-6000 CL30",
+      "type": "ram",
+      "price": 0,
+      "specifications": {
+        "modules": 2,
+        "profile": "EXPO 1.1 / XMP 3.0",
+        "speed_mts": 6000,
+        "capacity_gb": 32,
+        "cas_latency": 30,
+        "memory_type": "DDR5"
+      },
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf 6000 MT/s là profile OC, JEDEC 4800; chưa xác minh QVL. Chưa xác minh giá/tồn kho Việt Nam.",
+      "is_active": true,
+      "brand": "Kingston",
+      "availability": "contact",
+      "manufacturer_code": "KF560C30BBEK2-32",
+      "catalog_sources": [
+        {
+          "url": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_kind": "unknown",
+      "price_source_url": null,
+      "price_observed_on": null,
+      "price_retailer": null,
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+    },
+    "after": {
+      "sku": "MKT-RAM-KF560C30BBEK2-32",
+      "name": "Kingston FURY Beast EXPO 32GB (2x16) DDR5-6000 CL30",
+      "type": "ram",
+      "price": 0,
+      "specifications": {
+        "modules": 2,
+        "profile": "EXPO 1.1 / XMP 3.0",
+        "speed_mts": 6000,
+        "capacity_gb": 32,
+        "cas_latency": 30,
+        "memory_type": "DDR5",
+        "height_mm": 34.9
+      },
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf 6000 MT/s là profile OC, JEDEC 4800; chưa xác minh QVL. Chưa xác minh giá/tồn kho Việt Nam. Bổ sung chiều cao34.9mm cóheatsink từ datasheet đúng KF560C30BBEK2-32 mở11/10/2026. JEDEC mặc định4800CL40;6000CL30 qua EXPO/XMP. Chỉ mô tả, chưa kiểm tra khoảng hởRAM/QVL.",
+      "is_active": true,
+      "brand": "Kingston",
+      "availability": "contact",
+      "manufacturer_code": "KF560C30BBEK2-32",
+      "catalog_sources": [
+        {
+          "url": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+          "checked_on": "2026-10-11"
+        }
+      ],
+      "price_kind": "unknown",
+      "price_source_url": null,
+      "price_observed_on": null,
+      "price_retailer": null,
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-RAM-CORSAIR-6000CL30-32",
+      "name": "Corsair VENGEANCE Black 32GB (2x16) DDR5-6000 CL30",
+      "type": "ram",
+      "price": 0,
+      "specifications": {
+        "modules": 2,
+        "profile": null,
+        "speed_mts": 6000,
+        "capacity_gb": 32,
+        "cas_latency": 30,
+        "memory_type": "DDR5"
+      },
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30 Tốc độ công bố cần OC/điều chỉnh BIOS, chưa xác minh QVL. Chưa xác minh giá/tồn kho Việt Nam.",
+      "is_active": true,
+      "brand": "Corsair",
+      "availability": "contact",
+      "manufacturer_code": "CMK32GX5M2B6000C30",
+      "catalog_sources": [
+        {
+          "url": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_kind": "unknown",
+      "price_source_url": null,
+      "price_observed_on": null,
+      "price_retailer": null,
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+    },
+    "after": {
+      "sku": "MKT-RAM-CORSAIR-6000CL30-32",
+      "name": "Corsair VENGEANCE Black 32GB (2x16) DDR5-6000 CL30",
+      "type": "ram",
+      "price": 0,
+      "specifications": {
+        "modules": 2,
+        "profile": "XMP 3.0",
+        "speed_mts": 6000,
+        "capacity_gb": 32,
+        "cas_latency": 30,
+        "memory_type": "DDR5"
+      },
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30 Tốc độ công bố cần OC/điều chỉnh BIOS, chưa xác minh QVL. Chưa xác minh giá/tồn kho Việt Nam. Bổ sung mô tả XMP3.0 từ trang Corsair đúng CMK32GX5M2B6000C30 mở11/10/2026;6000MT/s là profile OC phụ thuộc CPU/BIOS, chưa xác minh QVL. Không dùng giá USD làm giá Việt Nam.",
+      "is_active": true,
+      "brand": "Corsair",
+      "availability": "contact",
+      "manufacturer_code": "CMK32GX5M2B6000C30",
+      "catalog_sources": [
+        {
+          "url": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30",
+          "checked_on": "2026-10-11"
+        }
+      ],
+      "price_kind": "unknown",
+      "price_source_url": null,
+      "price_observed_on": null,
+      "price_retailer": null,
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-CASE-ANTEC-AX61-ELITE",
+      "name": "Antec AX61 ELITE",
+      "type": "case",
+      "price": 0,
+      "specifications": {
+        "bays_2_5": 2,
+        "bays_3_5": 2,
+        "psu_forms": null,
+        "mainboard_forms": [
+          "ATX",
+          "mATX",
+          "Mini-ITX"
+        ],
+        "max_gpu_length_mm": 320,
+        "max_psu_length_mm": 165,
+        "max_cooler_height_mm": 160
+      },
+      "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Giới hạn PSU 165 mm gồm cáp khi còn HDD, chưa được Rule Engine xét. Khay SSD đếm riêng 2, không cộng khay chung HDD. Chưa xác nhận tồn kho Việt Nam.",
+      "is_active": true,
+      "brand": "Antec",
+      "availability": "contact",
+      "manufacturer_code": "AX61 ELITE",
+      "catalog_sources": [
+        {
+          "url": "https://antec.com/product/case/ax61",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_kind": "unknown",
+      "price_source_url": null,
+      "price_observed_on": null,
+      "price_retailer": null,
+      "price_note": "Chưa xác minh được giá bán lẻ tại Việt Nam. Cần liên hệ; 0 trong database chỉ là giá trị giữ chỗ."
+    },
+    "after": {
+      "sku": "MKT-CASE-ANTEC-AX61-ELITE",
+      "name": "Antec AX61 ELITE",
+      "type": "case",
+      "price": 890000,
+      "specifications": {
+        "bays_2_5": 2,
+        "bays_3_5": 2,
+        "psu_forms": null,
+        "mainboard_forms": [
+          "ATX",
+          "mATX",
+          "Mini-ITX"
+        ],
+        "max_gpu_length_mm": 320,
+        "max_psu_length_mm": 165,
+        "max_cooler_height_mm": 160
+      },
+      "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Giới hạn PSU 165 mm gồm cáp khi còn HDD, chưa được Rule Engine xét. Khay SSD đếm riêng 2, không cộng khay chung HDD. Chưa xác nhận tồn kho Việt Nam. Đối chiếu điều kiện Antec11/10/2026:giới hạn PSU165mm bao gồm cáp khi lắp HDD,345mm nếu khôngHDD. Giữ165mm/psu_forms null; chưa kiểm tra chiều dài PSU/đầu nguồn trong RuleEngine.",
+      "is_active": true,
+      "brand": "Antec",
+      "availability": "contact",
+      "manufacturer_code": "AX61 ELITE",
+      "catalog_sources": [
+        {
+          "url": "https://antec.com/product/case/ax61",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://antec.com/product/case/ax61",
+          "checked_on": "2026-10-11"
+        }
+      ],
+      "price_kind": "retail_reference",
+      "price_source_url": "https://laptopworld.vn/vo-case-antec-ax61-elite-atx-mau-den-4-fan.html",
+      "price_observed_on": "2026-10-11",
+      "price_retailer": "Laptop World",
+      "price_note": "Giá khuyến mãi tham khảo890.000VND đãVAT trên trang LaptopWorld mở11/10/2026 cho AX61ELITE đen4fan; không dùng giá gạch1.399.000. Trang ghi Hết hàng, chưa xác minh tồn kho mới: TECHFORGE giữ Liên hệ và chặn mua."
+    }
+  }
+]

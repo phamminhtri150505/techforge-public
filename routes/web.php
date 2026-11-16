@@ -1,0 +1,76 @@
+<?php
+
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\AssistantController;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BuilderController;
+use App\Http\Controllers\CartController;
+use App\Http\Controllers\OrderController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\PromotionController;
+use App\Http\Controllers\RecommendationController;
+use App\Http\Controllers\ReferenceBuildController;
+use App\Http\Controllers\SavedConfigurationController;
+use App\Http\Controllers\SharedConfigurationController;
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', [ArticleController::class, 'home'])->name('home');
+Route::get('/builder', [BuilderController::class, 'index'])->name('builder.index');
+Route::get('/reference-builds', [ReferenceBuildController::class, 'index'])->name('reference-builds.index');
+Route::post('/reference-builds/{slug}/select', [ReferenceBuildController::class, 'select'])->middleware('throttle:10,1')->name('reference-builds.select');
+Route::get('/products', [ProductController::class, 'index'])->name('products.index');
+Route::get('/products/{product}', [ProductController::class, 'show'])->name('products.show');
+Route::post('/products/{product}/builder', [ProductController::class, 'selectForBuilder'])->middleware('throttle:session-writes')->name('products.builder');
+Route::post('/products/{product}/cart', [CartController::class, 'addProduct'])->middleware('throttle:session-writes')->name('products.cart');
+Route::post('/builder/check', [BuilderController::class, 'check'])->middleware('throttle:session-writes')->name('builder.check');
+Route::post('/builder/recommendations', [RecommendationController::class, 'store'])->middleware('throttle:6,1')->name('builder.recommendations.store');
+Route::post('/builder/recommendations/apply', [RecommendationController::class, 'apply'])->middleware('throttle:session-writes')->name('builder.recommendations.apply');
+Route::delete('/builder', [BuilderController::class, 'reset'])->middleware('throttle:session-writes')->name('builder.reset');
+Route::post('/assistant/requirements', [AssistantController::class, 'update'])->middleware('throttle:3,1')->name('assistant.update');
+Route::get('/articles', [ArticleController::class, 'index'])->name('articles.index');
+Route::get('/articles/{slug}', [ArticleController::class, 'show'])->name('articles.show');
+Route::post('/articles/{slug}/builder', [ArticleController::class, 'useRequirements'])->name('articles.builder');
+Route::get('/shared/{token}', [SharedConfigurationController::class, 'show'])->where('token', '[a-f0-9]{64}')->name('configurations.shared');
+Route::post('/shared/{token}/remix', [SharedConfigurationController::class, 'remix'])->where('token', '[a-f0-9]{64}')->middleware('throttle:10,1')->name('configurations.remix');
+Route::middleware('guest')->group(function () {
+    Route::get('/login', [AuthController::class, 'loginForm'])->name('login');
+    Route::post('/login', [AuthController::class, 'login'])->middleware('throttle:5,1')->name('login.store');
+    Route::get('/register', [AuthController::class, 'registerForm'])->name('register');
+    Route::post('/register', [AuthController::class, 'register'])->middleware('throttle:5,1')->name('register.store');
+});
+Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
+Route::post('/cart', [CartController::class, 'store'])->middleware('throttle:session-writes')->name('cart.store');
+Route::delete('/cart', [CartController::class, 'destroy'])->middleware('throttle:session-writes')->name('cart.destroy');
+Route::patch('/cart/items/{product}', [CartController::class, 'updateLine'])->middleware('throttle:session-writes')->name('cart.items.update');
+Route::post('/cart/edit', [CartController::class, 'editInBuilder'])->middleware('throttle:session-writes')->name('cart.edit');
+Route::middleware('auth')->group(function () {
+    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+    Route::get('/configurations', [SavedConfigurationController::class, 'index'])->name('configurations.index');
+    Route::post('/configurations', [SavedConfigurationController::class, 'store'])->name('configurations.store');
+    Route::post('/configurations/{configuration}/load', [SavedConfigurationController::class, 'load'])->name('configurations.load');
+    Route::delete('/configurations/{configuration}', [SavedConfigurationController::class, 'destroy'])->name('configurations.destroy');
+    Route::post('/configurations/{configuration}/share', [SharedConfigurationController::class, 'enable'])->name('configurations.share');
+    Route::delete('/configurations/{configuration}/share', [SharedConfigurationController::class, 'disable'])->name('configurations.unshare');
+    Route::get('/orders', [OrderController::class, 'index'])->name('orders.index');
+    Route::get('/orders/{order}', [OrderController::class, 'show'])->name('orders.show');
+    Route::post('/orders', [OrderController::class, 'store'])->middleware('throttle:10,1')->name('orders.store');
+});
+Route::prefix('admin')->middleware(['auth', 'can:admin'])->name('admin.')->group(function () {
+    Route::get('/', [AdminController::class, 'index'])->name('index');
+    Route::get('/promotions', [PromotionController::class, 'index'])->name('promotions.index');
+    Route::get('/promotions/create', [PromotionController::class, 'form'])->name('promotions.create');
+    Route::get('/promotions/{promotion}/edit', [PromotionController::class, 'form'])->name('promotions.edit');
+    Route::post('/promotions', [PromotionController::class, 'save'])->name('promotions.store');
+    Route::put('/promotions/{promotion}', [PromotionController::class, 'save'])->name('promotions.update');
+    Route::get('/products/create', [AdminController::class, 'productForm'])->name('products.create');
+    Route::get('/products/{product}/edit', [AdminController::class, 'productForm'])->name('products.edit');
+    Route::post('/products', [AdminController::class, 'saveProduct'])->name('products.store');
+    Route::put('/products/{product}', [AdminController::class, 'saveProduct'])->name('products.update');
+    Route::get('/articles/create', [AdminController::class, 'articleForm'])->name('articles.create');
+    Route::get('/articles/inbox', [AdminController::class, 'newsInbox'])->name('articles.inbox');
+    Route::get('/articles/{article}/edit', [AdminController::class, 'articleForm'])->name('articles.edit');
+    Route::post('/articles', [AdminController::class, 'saveArticle'])->name('articles.store');
+    Route::put('/articles/{article}', [AdminController::class, 'saveArticle'])->name('articles.update');
+    Route::patch('/orders/{order}', [AdminController::class, 'orderStatus'])->name('orders.update');
+});

@@ -1,0 +1,1621 @@
+{
+  "review_date": "2026-10-11",
+  "scope": "24 SKU da ton tai; chi nghien cuu, chua ap dung DB",
+  "rows": [
+    {
+      "sku": "MKT-CPU-12400F-TRAY",
+      "role": "cpu",
+      "review_status": "manufacturer_opened",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở nguồn hãng đúng mã. Giữ giá/nguồn/ngày giá cũ vì chưa mở lại cửa hàng; không suy PSU CPU hoặc BIOS từ socket."
+      ],
+      "source_urls": [
+        "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+        "https://hacom.vn/cpu-intel-core-i5-12400f-tray-new"
+      ],
+      "baseline": {
+        "sku": "MKT-CPU-12400F-TRAY",
+        "name": "Intel Core i5-12400F Tray (không tản)",
+        "type": "cpu",
+        "price": 3599000,
+        "specifications": {
+          "cores": 6,
+          "socket": "LGA1700",
+          "threads": 12,
+          "packaging": "tray",
+          "model_code": "Intel Core i5-12400F",
+          "memory_types": [
+            "DDR4",
+            "DDR5"
+          ],
+          "max_boost_mhz": 4400,
+          "recommended_psu_w": null,
+          "integrated_graphics": false
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html Biến thể tray đối chiếu trang HACOM; không kèm tản; cần GPU rời. Giá tham khảo có nguồn ghi riêng; chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "Intel",
+        "availability": "orderable",
+        "manufacturer_code": "i5-12400F/TRAY",
+        "catalog_sources": [
+          {
+            "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://hacom.vn/cpu-intel-core-i5-12400f-tray-new",
+        "price_observed_on": "2026-10-08",
+        "price_retailer": "HACOM",
+        "price_note": "Giá mua online/mua lẻ đã gồm VAT. Không lấy giá build PC 2.799.000 ₫ hoặc dòng khuyến mại 3.399.000 ₫. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://hacom.vn/cpu-intel-core-i5-12400f-tray-new",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-CPU-I3-14100F-RETAIL",
+      "role": "cpu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở lại URL hãng/datasheet của đúng model, chỉ rà định danh và dữ liệu phục vụ ưu tiên. Không có sửa đổi được đề xuất từ lần mở này; không coi là đối chiếu toàn bộ thông số, BIOS/QVL hay giá. Giá/ngày nguồn cũ giữ nguyên."
+      ],
+      "source_urls": [
+        "https://www.intel.com/content/www/us/en/products/sku/236786/intel-core-i3-processor-14100f-12m-cache-up-to-4-70-ghz/specifications.html",
+        "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i3-14100f"
+      ],
+      "baseline": {
+        "sku": "MKT-CPU-I3-14100F-RETAIL",
+        "name": "Intel Core i3-14100F",
+        "type": "cpu",
+        "price": 3190000,
+        "specifications": {
+          "cores": 4,
+          "socket": "LGA1700",
+          "threads": 8,
+          "packaging": null,
+          "model_code": "Intel Core i3-14100F",
+          "l2_cache_mb": 5,
+          "l3_cache_mb": 12,
+          "architecture": "Raptor Lake",
+          "memory_types": [
+            "DDR4",
+            "DDR5"
+          ],
+          "max_boost_mhz": 4700,
+          "max_memory_gb": 192,
+          "base_clock_mhz": 3500,
+          "graphics_model": null,
+          "efficient_cores": 0,
+          "performance_cores": 4,
+          "recommended_psu_w": null,
+          "integrated_graphics": false,
+          "maximum_turbo_power_w": 110,
+          "processor_base_power_w": 58,
+          "efficient_base_clock_mhz": null
+        },
+        "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+        "is_active": true,
+        "brand": "Intel",
+        "availability": "orderable",
+        "manufacturer_code": "i3-14100F/RETAIL",
+        "catalog_sources": [
+          {
+            "url": "https://www.intel.com/content/www/us/en/products/sku/236786/intel-core-i3-processor-14100f-12m-cache-up-to-4-70-ghz/specifications.html",
+            "checked_on": "2026-10-09"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i3-14100f",
+        "price_observed_on": "2026-10-09",
+        "price_retailer": "GEARVN",
+        "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236786/intel-core-i3-processor-14100f-12m-cache-up-to-4-70-ghz/specifications.html",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i3-14100f",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-CPU-I5-14400F-RETAIL",
+      "role": "cpu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở lại URL hãng/datasheet của đúng model, chỉ rà định danh và dữ liệu phục vụ ưu tiên. Không có sửa đổi được đề xuất từ lần mở này; không coi là đối chiếu toàn bộ thông số, BIOS/QVL hay giá. Giá/ngày nguồn cũ giữ nguyên."
+      ],
+      "source_urls": [
+        "https://www.intel.com/content/www/us/en/products/sku/236777/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html",
+        "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i5-14400f"
+      ],
+      "baseline": {
+        "sku": "MKT-CPU-I5-14400F-RETAIL",
+        "name": "Intel Core i5-14400F",
+        "type": "cpu",
+        "price": 5190000,
+        "specifications": {
+          "cores": 10,
+          "socket": "LGA1700",
+          "threads": 16,
+          "packaging": null,
+          "model_code": "Intel Core i5-14400F",
+          "l2_cache_mb": 9.5,
+          "l3_cache_mb": 20,
+          "architecture": "Raptor Lake",
+          "memory_types": [
+            "DDR4",
+            "DDR5"
+          ],
+          "max_boost_mhz": 4700,
+          "max_memory_gb": 192,
+          "base_clock_mhz": 2500,
+          "graphics_model": null,
+          "efficient_cores": 4,
+          "performance_cores": 6,
+          "recommended_psu_w": null,
+          "integrated_graphics": false,
+          "maximum_turbo_power_w": 148,
+          "processor_base_power_w": 65,
+          "efficient_base_clock_mhz": 1800
+        },
+        "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+        "is_active": true,
+        "brand": "Intel",
+        "availability": "orderable",
+        "manufacturer_code": "i5-14400F/RETAIL",
+        "catalog_sources": [
+          {
+            "url": "https://www.intel.com/content/www/us/en/products/sku/236777/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html",
+            "checked_on": "2026-10-09"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i5-14400f",
+        "price_observed_on": "2026-10-09",
+        "price_retailer": "GEARVN",
+        "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236777/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i5-14400f",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-CPU-5600",
+      "role": "cpu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở lại URL hãng/datasheet của đúng model, chỉ rà định danh và dữ liệu phục vụ ưu tiên. Không có sửa đổi được đề xuất từ lần mở này; không coi là đối chiếu toàn bộ thông số, BIOS/QVL hay giá. Giá/ngày nguồn cũ giữ nguyên."
+      ],
+      "source_urls": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+        "https://hacom.vn/cpu-amd-ryzen-5-5600-3.5-ghz-upto-4.4ghz-35mb-6-cores-12-threads-65w-socket-am4"
+      ],
+      "baseline": {
+        "sku": "MKT-CPU-5600",
+        "name": "AMD Ryzen 5 5600 Box",
+        "type": "cpu",
+        "price": 2799000,
+        "specifications": {
+          "cores": 6,
+          "tdp_w": 65,
+          "socket": "AM4",
+          "threads": 12,
+          "packaging": "box",
+          "model_code": "AMD Ryzen 5 5600",
+          "memory_types": [
+            "DDR4"
+          ],
+          "max_boost_mhz": 4400,
+          "recommended_psu_w": null,
+          "integrated_graphics": false
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08.  Chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "AMD",
+        "availability": "orderable",
+        "manufacturer_code": "100-100000927BOX",
+        "catalog_sources": [
+          {
+            "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://hacom.vn/cpu-amd-ryzen-5-5600-3.5-ghz-upto-4.4ghz-35mb-6-cores-12-threads-65w-socket-am4",
+        "price_observed_on": "2026-10-08",
+        "price_retailer": "HACOM",
+        "price_note": "Giá mua online đã gồm VAT; đối chiếu biến thể Box. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://hacom.vn/cpu-amd-ryzen-5-5600-3.5-ghz-upto-4.4ghz-35mb-6-cores-12-threads-65w-socket-am4",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-CPU-7500F-RETAIL",
+      "role": "cpu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở lại URL hãng/datasheet của đúng model, chỉ rà định danh và dữ liệu phục vụ ưu tiên. Không có sửa đổi được đề xuất từ lần mở này; không coi là đối chiếu toàn bộ thông số, BIOS/QVL hay giá. Giá/ngày nguồn cũ giữ nguyên."
+      ],
+      "source_urls": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+        "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-5-7500f-3-7ghz-boost-5-0ghz-6-nhan-12-luong-38mb-am5-tray"
+      ],
+      "baseline": {
+        "sku": "MKT-CPU-7500F-RETAIL",
+        "name": "AMD Ryzen 5 7500F Tray",
+        "type": "cpu",
+        "price": 4790000,
+        "specifications": {
+          "cores": 6,
+          "tdp_w": 65,
+          "socket": "AM5",
+          "threads": 12,
+          "packaging": "tray",
+          "model_code": "AMD Ryzen 5 7500F",
+          "l2_cache_mb": 6,
+          "l3_cache_mb": 32,
+          "architecture": "Zen 4",
+          "memory_types": [
+            "DDR5"
+          ],
+          "max_boost_mhz": 5000,
+          "max_memory_gb": 128,
+          "base_clock_mhz": 3700,
+          "graphics_model": null,
+          "recommended_psu_w": null,
+          "tray_product_code": "100-000000597",
+          "boxed_product_code": "100-100000597BOX",
+          "integrated_graphics": false
+        },
+        "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+        "is_active": true,
+        "brand": "AMD",
+        "availability": "orderable",
+        "manufacturer_code": "100-000000597",
+        "catalog_sources": [
+          {
+            "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+            "checked_on": "2026-10-09"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-5-7500f-3-7ghz-boost-5-0ghz-6-nhan-12-luong-38mb-am5-tray",
+        "price_observed_on": "2026-10-09",
+        "price_retailer": "GEARVN",
+        "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-5-7500f-3-7ghz-boost-5-0ghz-6-nhan-12-luong-38mb-am5-tray",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-CPU-7800X3D-RETAIL",
+      "role": "cpu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở lại URL hãng/datasheet của đúng model, chỉ rà định danh và dữ liệu phục vụ ưu tiên. Không có sửa đổi được đề xuất từ lần mở này; không coi là đối chiếu toàn bộ thông số, BIOS/QVL hay giá. Giá/ngày nguồn cũ giữ nguyên."
+      ],
+      "source_urls": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "https://gearvn.com/products/amd-ryzen-7-7800x3d"
+      ],
+      "baseline": {
+        "sku": "MKT-CPU-7800X3D-RETAIL",
+        "name": "AMD Ryzen 7 7800X3D",
+        "type": "cpu",
+        "price": 11990000,
+        "specifications": {
+          "cores": 8,
+          "tdp_w": 120,
+          "socket": "AM5",
+          "threads": 16,
+          "packaging": null,
+          "model_code": "AMD Ryzen 7 7800X3D",
+          "l2_cache_mb": 8,
+          "l3_cache_mb": 96,
+          "architecture": "Zen 4",
+          "memory_types": [
+            "DDR5"
+          ],
+          "max_boost_mhz": 5000,
+          "max_memory_gb": 128,
+          "base_clock_mhz": 4200,
+          "graphics_model": "Radeon Graphics",
+          "recommended_psu_w": null,
+          "tray_product_code": null,
+          "boxed_product_code": "100-100000910WOF",
+          "integrated_graphics": true
+        },
+        "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+        "is_active": true,
+        "brand": "AMD",
+        "availability": "orderable",
+        "manufacturer_code": "Ryzen 7 7800X3D/RETAIL",
+        "catalog_sources": [
+          {
+            "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+            "checked_on": "2026-10-09"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://gearvn.com/products/amd-ryzen-7-7800x3d",
+        "price_observed_on": "2026-10-09",
+        "price_retailer": "GEARVN",
+        "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://gearvn.com/products/amd-ryzen-7-7800x3d",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-GPU-09-003",
+      "role": "gpu",
+      "review_status": "manufacturer_and_retailer_opened",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở hãng Gigabyte GV-N5060WF2OC-8GD và trang GEARVN ghi cùng mã, nhưng tên cửa hàng thêm V2. Trang chi tiết hiển thị 15.490.000 VND; snippet tìm kiếm cũ 13.190.000 không dùng. Giá gạch 16.990.000 không dùng; giá build trọn bộ chỉ đề nghị tư vấn.",
+        "Thông số cửa hàng ghi PSU450W khác hãng550W: giữ thông số hãng. Giá chỉ là tham khảo chụp trang; giữ contact để xác nhận hậu tố V2/model, VAT và tồn kho trước mua."
+      ],
+      "source_urls": [
+        "https://www.gigabyte.com/eu/Graphics-Card/GV-N5060WF2OC-8GD/sp",
+        "https://gearvn.com/products/card-man-hinh-gigabyte-geforce-rtx-5060-windforce-v2-oc-8gb-gv-n5060wf2oc-8gd",
+        "https://www.gigabyte.com/in/Graphics-Card/GV-N5060WF2OC-8GD/sp"
+      ],
+      "baseline": {
+        "sku": "MKT-GPU-09-003",
+        "name": "Gigabyte GeForce RTX 5060 WINDFORCE OC 8GB",
+        "type": "gpu",
+        "price": 0,
+        "specifications": {
+          "slots": null,
+          "vram_gb": 8,
+          "width_mm": 116,
+          "length_mm": 199,
+          "vram_type": "GDDR7",
+          "chip_vendor": "NVIDIA",
+          "gpu_chipset": "RTX 5060",
+          "pcie_version": "PCIe 5.0",
+          "thickness_mm": 40,
+          "board_power_w": null,
+          "boost_clock_mhz": 2512,
+          "display_outputs": "3 x DisplayPort 2.1b, 1 x HDMI 2.1b",
+          "memory_bus_bits": 128,
+          "power_connector": "1 x 8-pin",
+          "processing_units": 3840,
+          "recommended_psu_w": 550,
+          "processing_unit_kind": "CUDA"
+        },
+        "data_source": "Thông số hãng đối chiếu 09/10/2026. Không phải WINDFORCE MAX. Cửa hàng có nhãn V2 cùng mã; chưa ghép giá khi revision chưa rõ. Công suất card khác nguồn khuyến nghị cả hệ thống. Đầu nguồn, số slot, PCIe, Resizable BAR và khoảng hở dây chưa được Rule Engine kiểm tra.",
+        "is_active": true,
+        "brand": "Gigabyte",
+        "availability": "contact",
+        "manufacturer_code": "GV-N5060WF2OC-8GD",
+        "catalog_sources": [
+          {
+            "url": "https://www.gigabyte.com/eu/Graphics-Card/GV-N5060WF2OC-8GD/sp",
+            "checked_on": "2026-10-09"
+          }
+        ],
+        "price_kind": "unknown",
+        "price_source_url": null,
+        "price_observed_on": null,
+        "price_retailer": null,
+        "price_note": "Chưa đối chiếu giá mua lẻ VND cho đúng biến thể; Liên hệ, không phải miễn phí. Không xác nhận tồn kho hoặc bảo hành Việt Nam."
+      },
+      "baseline_image_present": true,
+      "retail_evidence": {
+        "url": "https://gearvn.com/products/card-man-hinh-gigabyte-geforce-rtx-5060-windforce-v2-oc-8gb-gv-n5060wf2oc-8gd",
+        "opened_on": "2026-10-11",
+        "retailer": "GEARVN",
+        "matched_manufacturer_code": "GV-N5060WF2OC-8GD",
+        "displayed_price_vnd": 15490000,
+        "raw_price_text": "15.490.000đ",
+        "raw_model_text": "GV-N5060WF2OC-8GD",
+        "conditions": "Tên cửa hàng thêm V2; chưa xác nhận VAT/tồn kho. Giábuild chỉ tưvấn, khôngdùng. Giữ contact."
+      },
+      "proposed_changes": [
+        "price",
+        "price_kind",
+        "price_source_url",
+        "price_observed_on",
+        "price_retailer",
+        "price_note"
+      ],
+      "source_reviews": [
+        {
+          "url": "https://www.gigabyte.com/eu/Graphics-Card/GV-N5060WF2OC-8GD/sp",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://gearvn.com/products/card-man-hinh-gigabyte-geforce-rtx-5060-windforce-v2-oc-8gb-gv-n5060wf2oc-8gd",
+          "status": "opened_price_reference",
+          "opened_on": "2026-10-11",
+          "scope": "Trang chi tiết đúng mã hiển thị trong retail_evidence; cần xác nhận điều kiện/biến thể/tồn kho."
+        },
+        {
+          "url": "https://www.gigabyte.com/in/Graphics-Card/GV-N5060WF2OC-8GD/sp",
+          "status": "opened_dimensions_psu",
+          "opened_on": "2026-10-11",
+          "scope": "Mã GV-N5060WF2OC-8GD,199x116x40mm/550W xác nhận từ bảng hãng; không dùng450W retailer."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-GPU-09-037",
+      "role": "gpu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở lại URL hãng/datasheet của đúng model, chỉ rà định danh và dữ liệu phục vụ ưu tiên. Không có sửa đổi được đề xuất từ lần mở này; không coi là đối chiếu toàn bộ thông số, BIOS/QVL hay giá. Giá/ngày nguồn cũ giữ nguyên."
+      ],
+      "source_urls": [
+        "https://www.gigabyte.com/us/Graphics-Card/GV-N4060WF2OC-8GD/sp"
+      ],
+      "baseline": {
+        "sku": "MKT-GPU-09-037",
+        "name": "Gigabyte GeForce RTX 4060 WINDFORCE OC 8GB",
+        "type": "gpu",
+        "price": 0,
+        "specifications": {
+          "slots": null,
+          "vram_gb": 8,
+          "width_mm": 120,
+          "length_mm": 192,
+          "vram_type": "GDDR6",
+          "chip_vendor": "NVIDIA",
+          "gpu_chipset": "RTX 4060",
+          "pcie_version": "PCIe 4.0",
+          "thickness_mm": 41,
+          "board_power_w": null,
+          "boost_clock_mhz": 2475,
+          "display_outputs": "2 x DisplayPort 1.4a, 2 x HDMI 2.1a",
+          "memory_bus_bits": 128,
+          "power_connector": "1 x 8-pin",
+          "processing_units": 3072,
+          "recommended_psu_w": 450,
+          "processing_unit_kind": "CUDA"
+        },
+        "data_source": "Thông số hãng đối chiếu 09/10/2026. Giữ dòng cũ trong danh mục để tra cứu/nâng cấp; chưa xác minh tồn kho hiện tại. Công suất card khác nguồn khuyến nghị cả hệ thống. Đầu nguồn, số slot, PCIe, Resizable BAR và khoảng hở dây chưa được Rule Engine kiểm tra.",
+        "is_active": true,
+        "brand": "Gigabyte",
+        "availability": "contact",
+        "manufacturer_code": "GV-N4060WF2OC-8GD",
+        "catalog_sources": [
+          {
+            "url": "https://www.gigabyte.com/us/Graphics-Card/GV-N4060WF2OC-8GD/sp",
+            "checked_on": "2026-10-09"
+          }
+        ],
+        "price_kind": "unknown",
+        "price_source_url": null,
+        "price_observed_on": null,
+        "price_retailer": null,
+        "price_note": "Chưa đối chiếu giá mua lẻ VND cho đúng biến thể; Liên hệ, không phải miễn phí. Không xác nhận tồn kho hoặc bảo hành Việt Nam."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.gigabyte.com/us/Graphics-Card/GV-N4060WF2OC-8GD/sp",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-GPU-10-007",
+      "role": "gpu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở lại URL hãng/datasheet của đúng model, chỉ rà định danh và dữ liệu phục vụ ưu tiên. Không có sửa đổi được đề xuất từ lần mở này; không coi là đối chiếu toàn bộ thông số, BIOS/QVL hay giá. Giá/ngày nguồn cũ giữ nguyên."
+      ],
+      "source_urls": [
+        "https://asrock.com/Graphics-Card/AMD/Radeon%20RX%206600%20Challenger%20D%208GB/index.anz.asp",
+        "https://cellphones.com.vn/vga-asrock-amd-radeon-rx-6600-challenger-d-8gb.html"
+      ],
+      "baseline": {
+        "sku": "MKT-GPU-10-007",
+        "name": "ASRock Radeon RX 6600 Challenger D 8GB",
+        "type": "gpu",
+        "price": 5490000,
+        "specifications": {
+          "slots": null,
+          "vram_gb": 8,
+          "width_mm": 132,
+          "length_mm": 269,
+          "vram_type": "GDDR6",
+          "chip_vendor": "AMD",
+          "gpu_chipset": "RX 6600",
+          "pcie_version": "PCIe 4.0 x8",
+          "thickness_mm": 41,
+          "board_power_w": null,
+          "boost_clock_mhz": 2491,
+          "display_outputs": "3 x DisplayPort 1.4, 1 x HDMI 2.1",
+          "memory_bus_bits": 128,
+          "power_connector": "1 x 8-pin",
+          "processing_units": 1792,
+          "recommended_psu_w": 500,
+          "processing_unit_kind": "Stream Processor"
+        },
+        "data_source": "Thông số trang hãng/datasheet chính thức đối chiếu 10/10/2026, theo đúng mã card. Công suất card khác PSU khuyến nghị cả hệ thống. PCIe, đầu nguồn, số slot và khoảng hở dây chưa được Rule Engine kiểm tra.",
+        "is_active": true,
+        "brand": "ASRock",
+        "availability": "contact",
+        "manufacturer_code": "RX6600 CLD 8G",
+        "catalog_sources": [
+          {
+            "url": "https://asrock.com/Graphics-Card/AMD/Radeon%20RX%206600%20Challenger%20D%208GB/index.anz.asp",
+            "checked_on": "2026-10-10"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://cellphones.com.vn/vga-asrock-amd-radeon-rx-6600-challenger-d-8gb.html",
+        "price_observed_on": "2026-10-10",
+        "price_retailer": "CellphoneS",
+        "price_note": "Giá niêm yết 5.490.000 VND nhưng trang ghi TẠM HẾT HÀNG; giữ Liên hệ, không nhận đơn. Không dùng giá bản Challenger White. Thông số cửa hàng ghi nhầm CUDA, lấy Stream Processor từ ASRock."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://asrock.com/Graphics-Card/AMD/Radeon%20RX%206600%20Challenger%20D%208GB/index.anz.asp",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://cellphones.com.vn/vga-asrock-amd-radeon-rx-6600-challenger-d-8gb.html",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-GPU-GB-7600-GAMINGOC",
+      "role": "gpu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở lại URL hãng/datasheet của đúng model, chỉ rà định danh và dữ liệu phục vụ ưu tiên. Không có sửa đổi được đề xuất từ lần mở này; không coi là đối chiếu toàn bộ thông số, BIOS/QVL hay giá. Giá/ngày nguồn cũ giữ nguyên."
+      ],
+      "source_urls": [
+        "https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/SP",
+        "https://gearvn.com/products/card-man-hinh-gigabyte-radeon-rx-7600-gaming-oc-8gb-gddr6"
+      ],
+      "baseline": {
+        "sku": "MKT-GPU-GB-7600-GAMINGOC",
+        "name": "Gigabyte Radeon RX 7600 GAMING OC 8G rev. 1.0/1.1",
+        "type": "gpu",
+        "price": 9490000,
+        "specifications": {
+          "vram_gb": 8,
+          "length_mm": 282,
+          "vram_type": "GDDR6",
+          "chip_vendor": "AMD",
+          "gpu_chipset": "Radeon RX 7600",
+          "recommended_psu_w": 550
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Hãng gom revision 1.0/1.1 trên cùng trang; giá cửa hàng không xác nhận revision giao thực tế. Chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "Gigabyte",
+        "availability": "orderable",
+        "manufacturer_code": "GV-R76GAMING OC-8GD/rev.1.0-1.1",
+        "catalog_sources": [
+          {
+            "url": "https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/SP",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://gearvn.com/products/card-man-hinh-gigabyte-radeon-rx-7600-gaming-oc-8gb-gddr6",
+        "price_observed_on": "2026-10-08",
+        "price_retailer": "GEARVN",
+        "price_note": "Giá hiển thị 9.490.000 ₫, không lấy giá gạch 11.390.000 ₫; cửa hàng có đề nghị giá tốt hơn khi build trọn bộ nhưng chưa công bố con số. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/SP",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://gearvn.com/products/card-man-hinh-gigabyte-radeon-rx-7600-gaming-oc-8gb-gddr6",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-GPU-09-013",
+      "role": "gpu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở lại URL hãng/datasheet của đúng model, chỉ rà định danh và dữ liệu phục vụ ưu tiên. Không có sửa đổi được đề xuất từ lần mở này; không coi là đối chiếu toàn bộ thông số, BIOS/QVL hay giá. Giá/ngày nguồn cũ giữ nguyên."
+      ],
+      "source_urls": [
+        "https://www.sparkle.com.tw/files/20241203220702169.pdf",
+        "https://pcngon.vn/card-man-hinh-sparkle-intel-arc-b570-guardian-oc-10gb-gddr6/"
+      ],
+      "baseline": {
+        "sku": "MKT-GPU-09-013",
+        "name": "Sparkle Intel Arc B570 GUARDIAN OC 10GB",
+        "type": "gpu",
+        "price": 8890000,
+        "specifications": {
+          "slots": 2.2,
+          "vram_gb": 10,
+          "width_mm": 105,
+          "length_mm": 242,
+          "vram_type": "GDDR6",
+          "chip_vendor": "Intel",
+          "gpu_chipset": "Arc B570",
+          "pcie_version": "PCIe 4.0 x8",
+          "thickness_mm": 44,
+          "board_power_w": 170,
+          "boost_clock_mhz": 2660,
+          "display_outputs": null,
+          "memory_bus_bits": 160,
+          "power_connector": "1 x 8-pin",
+          "processing_units": 18,
+          "recommended_psu_w": 600,
+          "processing_unit_kind": "Xe-core"
+        },
+        "data_source": "Thông số hãng đối chiếu 09/10/2026. Số đơn vị là Xe-core, không phải CUDA. Cần đối chiếu hỗ trợ Resizable BAR của hệ thống. Công suất card khác nguồn khuyến nghị cả hệ thống. Đầu nguồn, số slot, PCIe, Resizable BAR và khoảng hở dây chưa được Rule Engine kiểm tra.",
+        "is_active": true,
+        "brand": "Sparkle",
+        "availability": "orderable",
+        "manufacturer_code": "SB570G-10GOC",
+        "catalog_sources": [
+          {
+            "url": "https://www.sparkle.com.tw/files/20241203220702169.pdf",
+            "checked_on": "2026-10-09"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://pcngon.vn/card-man-hinh-sparkle-intel-arc-b570-guardian-oc-10gb-gddr6/",
+        "price_observed_on": "2026-10-09",
+        "price_retailer": "Pcngon",
+        "price_note": "Giá mua lẻ hiển thị; không áp dụng giảm giá khi mua kèm nguồn/mainboard. Giá quan sát ngày 09/10/2026, có thể đổi; chưa xác nhận tồn kho/bảo hành. Nhận đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.sparkle.com.tw/files/20241203220702169.pdf",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://pcngon.vn/card-man-hinh-sparkle-intel-arc-b570-guardian-oc-10gb-gddr6/",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-GPU-09-015",
+      "role": "gpu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở lại URL hãng/datasheet của đúng model, chỉ rà định danh và dữ liệu phục vụ ưu tiên. Không có sửa đổi được đề xuất từ lần mở này; không coi là đối chiếu toàn bộ thông số, BIOS/QVL hay giá. Giá/ngày nguồn cũ giữ nguyên."
+      ],
+      "source_urls": [
+        "https://asrock.com/Graphics-Card/Intel/Intel%20Arc%20B580%20Challenger%2012GB%20OC/",
+        "https://pcngon.vn/card-man-hinh-asrock-intel-arc-b580-challenger-12gb-oc/"
+      ],
+      "baseline": {
+        "sku": "MKT-GPU-09-015",
+        "name": "ASRock Intel Arc B580 Challenger OC 12GB",
+        "type": "gpu",
+        "price": 8990000,
+        "specifications": {
+          "slots": 2,
+          "vram_gb": 12,
+          "width_mm": 132,
+          "length_mm": 249,
+          "vram_type": "GDDR6",
+          "chip_vendor": "Intel",
+          "gpu_chipset": "Arc B580",
+          "pcie_version": "PCIe 4.0 x8",
+          "thickness_mm": 41,
+          "board_power_w": null,
+          "boost_clock_mhz": 2740,
+          "display_outputs": "3 x DisplayPort 2.1, 1 x HDMI 2.1a",
+          "memory_bus_bits": 192,
+          "power_connector": "1 x 8-pin",
+          "processing_units": 20,
+          "recommended_psu_w": 650,
+          "processing_unit_kind": "Xe-core"
+        },
+        "data_source": "Thông số hãng đối chiếu 09/10/2026. Cần kiểm tra Resizable BAR, không tự xác nhận từ socket CPU. Công suất card khác nguồn khuyến nghị cả hệ thống. Đầu nguồn, số slot, PCIe, Resizable BAR và khoảng hở dây chưa được Rule Engine kiểm tra.",
+        "is_active": true,
+        "brand": "ASRock",
+        "availability": "orderable",
+        "manufacturer_code": "B580 CL 12GO",
+        "catalog_sources": [
+          {
+            "url": "https://asrock.com/Graphics-Card/Intel/Intel%20Arc%20B580%20Challenger%2012GB%20OC/",
+            "checked_on": "2026-10-09"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://pcngon.vn/card-man-hinh-asrock-intel-arc-b580-challenger-12gb-oc/",
+        "price_observed_on": "2026-10-09",
+        "price_retailer": "Pcngon",
+        "price_note": "Nguồn ghi hàng đặt trước 15 ngày; không khẳng định có sẵn dù trang đồng thời có nhãn Còn hàng. Giá quan sát ngày 09/10/2026, có thể đổi; chưa xác nhận tồn kho/bảo hành. Nhận đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://asrock.com/Graphics-Card/Intel/Intel%20Arc%20B580%20Challenger%2012GB%20OC/",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://pcngon.vn/card-man-hinh-asrock-intel-arc-b580-challenger-12gb-oc/",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-MB-ASUS-B760MK-D4",
+      "role": "mainboard",
+      "review_status": "existing_source_reopen_failed",
+      "checked_on": null,
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Nguồn ASUS UK techspec mở lại trả lỗi Internal Error qua công cụ web ngày 11/10; chỉ giữ baseline đã đối chiếu08/10. Không đổi ngày nguồn/giá và CPU support vẫn null."
+      ],
+      "source_urls": [
+        "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b760m-k-d4/techspec/",
+        "https://gearvn.com/products/bo-mach-chu-asus-prime-b760m-k-d4"
+      ],
+      "baseline": {
+        "sku": "MKT-MB-ASUS-B760MK-D4",
+        "name": "ASUS PRIME B760M-K D4",
+        "type": "mainboard",
+        "price": 2590000,
+        "specifications": {
+          "socket": "LGA1700",
+          "chipset": "B760",
+          "sata_ports": 4,
+          "cpu_support": null,
+          "form_factor": "mATX",
+          "memory_type": "DDR4",
+          "memory_slots": 2,
+          "m2_nvme_slots": 2,
+          "max_memory_gb": 64
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b760m-k-d4/techspec/ 2 khe M.2 hỗ trợ 2280; chưa xác minh CPU/BIOS. Giá tham khảo có nguồn ghi riêng; chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "ASUS",
+        "availability": "orderable",
+        "manufacturer_code": "PRIME B760M-K D4",
+        "catalog_sources": [
+          {
+            "url": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b760m-k-d4/techspec/",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://gearvn.com/products/bo-mach-chu-asus-prime-b760m-k-d4",
+        "price_observed_on": "2026-10-08",
+        "price_retailer": "GEARVN",
+        "price_note": "Giá đang hiển thị 2.590.000 ₫, không lấy giá gạch 2.990.000 ₫. Trang cửa hàng ghi số khe RAM không nhất quán; thông số dùng nguồn ASUS. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b760m-k-d4/techspec/",
+          "status": "reopen_failed",
+          "opened_on": null,
+          "scope": "Đã thử mở11/10 nhưng lỗi, không xác nhận thông số mới."
+        },
+        {
+          "url": "https://gearvn.com/products/bo-mach-chu-asus-prime-b760m-k-d4",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-MB-ASUS-TUF-B650PLUS-WIFI",
+      "role": "mainboard",
+      "review_status": "manufacturer_opened",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở trang techspec ASUS đúng mã. Hãng công bố 3 khe M.2 PCIe, 4 SATA; M.2_3 chia lane với PCIEX16_2. Bổ sung m2_nvme_slots=3/sata_ports=4, giữ CPU support null chưa đối chiếu BIOS."
+      ],
+      "source_urls": [
+        "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/"
+      ],
+      "baseline": {
+        "sku": "MKT-MB-ASUS-TUF-B650PLUS-WIFI",
+        "name": "ASUS TUF GAMING B650-PLUS WIFI",
+        "type": "mainboard",
+        "price": 0,
+        "specifications": {
+          "wifi": true,
+          "socket": "AM5",
+          "chipset": "B650",
+          "sata_ports": null,
+          "cpu_support": null,
+          "form_factor": "ATX",
+          "memory_type": "DDR5",
+          "memory_slots": 4,
+          "m2_nvme_slots": null,
+          "max_memory_gb": 256
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/ Chưa đối chiếu điều kiện khe lưu trữ theo CPU; chưa xác minh BIOS. Chưa xác minh giá/tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "ASUS",
+        "availability": "contact",
+        "manufacturer_code": "TUF GAMING B650-PLUS WIFI",
+        "catalog_sources": [
+          {
+            "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "unknown",
+        "price_source_url": null,
+        "price_observed_on": null,
+        "price_retailer": null,
+        "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+      },
+      "baseline_image_present": true,
+      "proposed_changes": [
+        "specifications",
+        "data_source",
+        "catalog_sources"
+      ],
+      "source_reviews": [
+        {
+          "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/techspec/",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-RAM-KF560C30BBEK2-32",
+      "role": "ram",
+      "review_status": "manufacturer_opened",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Datasheet hãng đúng KF560C30BBEK2-32: 32GB2x16, DDR5-6000CL30 quaEXPO1.1/XMP3.0; SPD JEDEC4800CL40. Cao34.9mm cóheatsink; bổ sung mô tả chiều cao, không có luật kiểm tra khoảng hởRAM. Chưa xác minhgiáViệtNam đúngmã, giữunknown."
+      ],
+      "source_urls": [
+        "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf"
+      ],
+      "baseline": {
+        "sku": "MKT-RAM-KF560C30BBEK2-32",
+        "name": "Kingston FURY Beast EXPO 32GB (2x16) DDR5-6000 CL30",
+        "type": "ram",
+        "price": 0,
+        "specifications": {
+          "modules": 2,
+          "profile": "EXPO 1.1 / XMP 3.0",
+          "speed_mts": 6000,
+          "capacity_gb": 32,
+          "cas_latency": 30,
+          "memory_type": "DDR5"
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf 6000 MT/s là profile OC, JEDEC 4800; chưa xác minh QVL. Chưa xác minh giá/tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "Kingston",
+        "availability": "contact",
+        "manufacturer_code": "KF560C30BBEK2-32",
+        "catalog_sources": [
+          {
+            "url": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "unknown",
+        "price_source_url": null,
+        "price_observed_on": null,
+        "price_retailer": null,
+        "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+      },
+      "baseline_image_present": true,
+      "proposed_changes": [
+        "specifications",
+        "data_source",
+        "catalog_sources"
+      ],
+      "source_reviews": [
+        {
+          "url": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-RAM-CORSAIR-6000CL30-32",
+      "role": "ram",
+      "review_status": "manufacturer_opened",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở trang Corsair đúng CMK32GX5M2B6000C30, 32GB/2x16 DDR5 6000 CL30 màu đen. XMP 3.0 được hãng mô tả; OC phụ thuộc CPU/BIOS. Không quy đổi giá USD sang VND."
+      ],
+      "source_urls": [
+        "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30"
+      ],
+      "baseline": {
+        "sku": "MKT-RAM-CORSAIR-6000CL30-32",
+        "name": "Corsair VENGEANCE Black 32GB (2x16) DDR5-6000 CL30",
+        "type": "ram",
+        "price": 0,
+        "specifications": {
+          "modules": 2,
+          "profile": null,
+          "speed_mts": 6000,
+          "capacity_gb": 32,
+          "cas_latency": 30,
+          "memory_type": "DDR5"
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30 Tốc độ công bố cần OC/điều chỉnh BIOS, chưa xác minh QVL. Chưa xác minh giá/tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "Corsair",
+        "availability": "contact",
+        "manufacturer_code": "CMK32GX5M2B6000C30",
+        "catalog_sources": [
+          {
+            "url": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "unknown",
+        "price_source_url": null,
+        "price_observed_on": null,
+        "price_retailer": null,
+        "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+      },
+      "baseline_image_present": true,
+      "proposed_changes": [
+        "specifications",
+        "data_source",
+        "catalog_sources"
+      ],
+      "source_reviews": [
+        {
+          "url": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-SSD-ADATA-SU650-1TB",
+      "role": "storage",
+      "review_status": "existing_source_reopen_failed",
+      "checked_on": null,
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "URL datasheet ADATA trả404 trong lần mở11/10; baseline đã có nguồn08/10 giữ nguyên. Chưa tìm URL thay thế đủ bằng chứng, không đổi thông số hay ngày/giá."
+      ],
+      "source_urls": [
+        "https://www.adata.com/storage/downloadfile/datasheet_ultimate_su650_25_inch_sata_ssd_20230620.pdf",
+        "https://hacom.vn/ssd-adata-su650-1tb-sata3-2.5-inch-doc-520mb-s-ghi-450mb-s-asu650ss-1tt-r-84179"
+      ],
+      "baseline": {
+        "sku": "MKT-SSD-ADATA-SU650-1TB",
+        "name": "ADATA SU650 1TB SATA 2.5 inch",
+        "type": "storage",
+        "price": 1299000,
+        "specifications": {
+          "size": "2.5",
+          "interface": "SATA",
+          "capacity_gb": 1000,
+          "sequential_read_mbs": 520,
+          "sequential_write_mbs": 450
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Tốc độ tối đa hãng công bố, không phải benchmark TECHFORGE. Chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "ADATA",
+        "availability": "orderable",
+        "manufacturer_code": "ASU650SS-1TT-R",
+        "catalog_sources": [
+          {
+            "url": "https://www.adata.com/storage/downloadfile/datasheet_ultimate_su650_25_inch_sata_ssd_20230620.pdf",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://hacom.vn/ssd-adata-su650-1tb-sata3-2.5-inch-doc-520mb-s-ghi-450mb-s-asu650ss-1tt-r-84179",
+        "price_observed_on": "2026-10-08",
+        "price_retailer": "HACOM",
+        "price_note": "Giá mua online 1.299.000 ₫, không quy đổi ngoại tệ. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.adata.com/storage/downloadfile/datasheet_ultimate_su650_25_inch_sata_ssd_20230620.pdf",
+          "status": "reopen_failed",
+          "opened_on": null,
+          "scope": "Đã thử mở11/10 nhưng lỗi, không xác nhận thông số mới."
+        },
+        {
+          "url": "https://hacom.vn/ssd-adata-su650-1tb-sata3-2.5-inch-doc-520mb-s-ghi-450mb-s-asu650ss-1tt-r-84179",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-SSD-LEXAR-NM790-1TB",
+      "role": "storage",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở URL hãng/datasheet đúng dòng sản phẩm. Không coi là đối chiếu mọi thông số/giá/tồn kho; giữ baseline và ngày nguồn giá cũ."
+      ],
+      "source_urls": [
+        "https://resources.lexar.com/download/1048/documents/14426/lexar-nm790-m-2-2280-ssd-setup-sheet-en-202410-1.pdf",
+        "https://www.anphatpc.com.vn/ssd-lexar-nm790-1tb-m.2-pcie-gen4-x4-nvme-lnm790x001t-rnnng.html"
+      ],
+      "baseline": {
+        "sku": "MKT-SSD-LEXAR-NM790-1TB",
+        "name": "Lexar NM790 1TB (không heatsink)",
+        "type": "storage",
+        "price": 5629000,
+        "specifications": {
+          "tbw": 1000,
+          "size": "2280",
+          "interface": "M.2 NVMe",
+          "capacity_gb": 1000,
+          "pcie_version": "4.0 x4",
+          "sequential_read_mbs": 7400,
+          "sequential_write_mbs": 6500
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://resources.lexar.com/download/1048/documents/14426/lexar-nm790-m-2-2280-ssd-setup-sheet-en-202410-1.pdf Tốc độ tối đa công bố, không phải kết quả benchmark hệ thống. Giá tham khảo có nguồn ghi riêng; chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "Lexar",
+        "availability": "contact",
+        "manufacturer_code": "LNM790X001T-RNNNG",
+        "catalog_sources": [
+          {
+            "url": "https://resources.lexar.com/download/1048/documents/14426/lexar-nm790-m-2-2280-ssd-setup-sheet-en-202410-1.pdf",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://www.anphatpc.com.vn/ssd-lexar-nm790-1tb-m.2-pcie-gen4-x4-nvme-lnm790x001t-rnnng.html",
+        "price_observed_on": "2026-10-08",
+        "price_retailer": "An Phát Computer",
+        "price_note": "Giá đã gồm VAT từ trích xuất tìm kiếm; trang chi tiết chặn robots.txt nên chưa kiểm tra trực tiếp, giữ Liên hệ. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://resources.lexar.com/download/1048/documents/14426/lexar-nm790-m-2-2280-ssd-setup-sheet-en-202410-1.pdf",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://www.anphatpc.com.vn/ssd-lexar-nm790-1tb-m.2-pcie-gen4-x4-nvme-lnm790x001t-rnnng.html",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-PSU-MSI-A650BN",
+      "role": "psu",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở URL hãng/datasheet đúng dòng sản phẩm. Không coi là đối chiếu mọi thông số/giá/tồn kho; giữ baseline và ngày nguồn giá cũ."
+      ],
+      "source_urls": [
+        "https://sg.msi.com/Power-Supply/MAG-A650BN/Specification",
+        "https://gearvn.com/products/nguon-msi-mag-a650bn"
+      ],
+      "baseline": {
+        "sku": "MKT-PSU-MSI-A650BN",
+        "name": "MSI MAG A650BN 650W",
+        "type": "psu",
+        "price": 1190000,
+        "specifications": {
+          "wattage_w": 650,
+          "form_factor": "ATX",
+          "fully_modular": false,
+          "efficiency_rating": "80 PLUS Bronze"
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Không phải A650BNL hay A650BN PCIE5 III. Chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "MSI",
+        "availability": "orderable",
+        "manufacturer_code": "MAG A650BN",
+        "catalog_sources": [
+          {
+            "url": "https://sg.msi.com/Power-Supply/MAG-A650BN/Specification",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://gearvn.com/products/nguon-msi-mag-a650bn",
+        "price_observed_on": "2026-10-08",
+        "price_retailer": "GEARVN",
+        "price_note": "Giá hiển thị 1.190.000 ₫, không lấy giá gạch 1.390.000 ₫. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://sg.msi.com/Power-Supply/MAG-A650BN/Specification",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://gearvn.com/products/nguon-msi-mag-a650bn",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-PSU-FSP-VITA750GM",
+      "role": "psu",
+      "review_status": "manufacturer_opened",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở trang FSP VITA GM 750W; đang rà giá bán lẻ đúng model, không coi mô tả trang hãng là tồn kho Việt Nam.",
+        "Truy vấn giá Việt Nam chưa trả trang cửa hàng đúng VITA GM750W; kết quả nước ngoài/bảnGM2/GD không dùng. Giữ unknown."
+      ],
+      "source_urls": [
+        "https://www.fsplifestyle.com/us/product/VITAGM750W.html"
+      ],
+      "baseline": {
+        "sku": "MKT-PSU-FSP-VITA750GM",
+        "name": "FSP VITA GM 750W",
+        "type": "psu",
+        "price": 0,
+        "specifications": {
+          "length_mm": 140,
+          "wattage_w": 750,
+          "atx_version": "3.1",
+          "form_factor": "ATX",
+          "fully_modular": true,
+          "efficiency_rating": "80 PLUS Gold"
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.fsplifestyle.com/us/product/VITAGM750W.html Công suất định mức 750W; chưa kiểm tra đầu cắm tự động. Chưa xác minh giá/tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "FSP",
+        "availability": "contact",
+        "manufacturer_code": "VITA-750GM",
+        "catalog_sources": [
+          {
+            "url": "https://www.fsplifestyle.com/us/product/VITAGM750W.html",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "unknown",
+        "price_source_url": null,
+        "price_observed_on": null,
+        "price_retailer": null,
+        "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.fsplifestyle.com/us/product/VITAGM750W.html",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-COOLER-TR-PA120-SE",
+      "role": "cooler",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở hãng đúng PA120SE: cao155mm,6heatpipe,ngàm115X/1200/1700/1851/AM4/AM5. Hãng yêu cầu chừa khoảng hở RAM; RuleEngine hiện chưa kiểm tra điều kiện này. Giá09/08 cũ không đối chiếu lại và không thayngày."
+      ],
+      "source_urls": [
+        "https://www.thermalright.com/product/peerless-assassin-120-se/",
+        "https://hacom.vn/tan-nhiet-khi-thermalright-peerless-assassin-120-se"
+      ],
+      "baseline": {
+        "sku": "MKT-COOLER-TR-PA120-SE",
+        "name": "Thermalright Peerless Assassin 120 SE",
+        "type": "cooler",
+        "price": 809000,
+        "specifications": {
+          "kind": "air",
+          "sockets": [
+            "LGA1150",
+            "LGA1151",
+            "LGA1155",
+            "LGA1156",
+            "LGA1200",
+            "LGA1700",
+            "LGA1851",
+            "AM4",
+            "AM5"
+          ],
+          "heatpipes": 6,
+          "height_mm": 155
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.thermalright.com/product/peerless-assassin-120-se/ Danh sách ngàm theo trang hiện tại; kiểm tra lô/bộ ngàm; RAM cao có thể cần nâng quạt. Giá tham khảo có nguồn ghi riêng; chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "Thermalright",
+        "availability": "orderable",
+        "manufacturer_code": "Peerless Assassin 120 SE",
+        "catalog_sources": [
+          {
+            "url": "https://www.thermalright.com/product/peerless-assassin-120-se/",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://hacom.vn/tan-nhiet-khi-thermalright-peerless-assassin-120-se",
+        "price_observed_on": "2026-10-08",
+        "price_retailer": "HACOM",
+        "price_note": "Giá mua online đã gồm VAT; bản SE không ARGB. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.thermalright.com/product/peerless-assassin-120-se/",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://hacom.vn/tan-nhiet-khi-thermalright-peerless-assassin-120-se",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-COOLER-ID-SE224XTS-BLACK",
+      "role": "cooler",
+      "review_status": "manufacturer_opened_retail_variant_unresolved",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở hãng đúng SE-224-XTS BLACK: cao151mm, ngàm như baseline. Đã mở TPASSION nhưng trang gộp BLACK/MINI, giá499.000 mặc định cùng mãMINI-BK; không dùng làm giá bảnBLACK thường. Giữunknown/Liên hệ, không lấy cam kết tránh cấnRAM100% của retailer làm luật."
+      ],
+      "source_urls": [
+        "https://www.idcooling.com/product/detail?id=319",
+        "https://tpassion.vn/products/tan-nhiet-khi-cpu-id-cooling-se-224-xts-black-mini"
+      ],
+      "baseline": {
+        "sku": "MKT-COOLER-ID-SE224XTS-BLACK",
+        "name": "ID-COOLING SE-224-XTS BLACK",
+        "type": "cooler",
+        "price": 0,
+        "specifications": {
+          "kind": "air",
+          "sockets": [
+            "LGA1851",
+            "LGA1700",
+            "LGA1200",
+            "LGA1151",
+            "LGA1150",
+            "LGA1155",
+            "LGA1156",
+            "AM5",
+            "AM4"
+          ],
+          "fan_count": 1,
+          "heatpipes": 4,
+          "height_mm": 151
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Cần kiểm tra bộ ngàm đi kèm lô hàng, đặc biệt LGA1851. Chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "ID-COOLING",
+        "availability": "contact",
+        "manufacturer_code": "SE-224-XTS BLACK",
+        "catalog_sources": [
+          {
+            "url": "https://www.idcooling.com/product/detail?id=319",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "unknown",
+        "price_source_url": null,
+        "price_observed_on": null,
+        "price_retailer": null,
+        "price_note": "Chưa xác minh được giá bán lẻ tại Việt Nam. Cần liên hệ; 0 trong database chỉ là giá trị giữ chỗ."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.idcooling.com/product/detail?id=319",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://tpassion.vn/products/tan-nhiet-khi-cpu-id-cooling-se-224-xts-black-mini",
+          "status": "opened_wrong_default_variant",
+          "opened_on": "2026-10-11",
+          "scope": "Giá mặc định thuộc MINI; không nhập cho BLACK thường."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-CASE-MONTECH-AIR903MAX-BK",
+      "role": "case",
+      "review_status": "manufacturer_opened_limited",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở URL hãng/datasheet đúng dòng sản phẩm. Không coi là đối chiếu mọi thông số/giá/tồn kho; giữ baseline và ngày nguồn giá cũ."
+      ],
+      "source_urls": [
+        "https://www.montechpc.com/air-903-max",
+        "https://tandoanh.vn/montech-air-903-max-black-ultra-cooling-mid-tower/"
+      ],
+      "baseline": {
+        "sku": "MKT-CASE-MONTECH-AIR903MAX-BK",
+        "name": "MONTECH AIR 903 MAX Black",
+        "type": "case",
+        "price": 1890000,
+        "specifications": {
+          "color": "Black",
+          "bays_2_5": 5,
+          "bays_3_5": 2,
+          "psu_forms": [
+            "ATX"
+          ],
+          "mainboard_forms": [
+            "ATX",
+            "mATX",
+            "Mini-ITX"
+          ],
+          "max_gpu_length_mm": 400,
+          "max_psu_length_mm": 240,
+          "max_cooler_height_mm": 180
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.montechpc.com/air-903-max Chỉ biểu diễn ATX/mATX/ITX trong engine; chưa xét radiator/phụ kiện. Giá tham khảo có nguồn ghi riêng; chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "Montech",
+        "availability": "orderable",
+        "manufacturer_code": "AIR 903 MAX/Black",
+        "catalog_sources": [
+          {
+            "url": "https://www.montechpc.com/air-903-max",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "retail_reference",
+        "price_source_url": "https://tandoanh.vn/montech-air-903-max-black-ultra-cooling-mid-tower/",
+        "price_observed_on": "2026-10-08",
+        "price_retailer": "Tân Doanh",
+        "price_note": "Giá Tân Doanh 1.890.000 ₫ đã gồm VAT; bản Max Black. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng."
+      },
+      "baseline_image_present": true,
+      "source_reviews": [
+        {
+          "url": "https://www.montechpc.com/air-903-max",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://tandoanh.vn/montech-air-903-max-black-ultra-cooling-mid-tower/",
+          "status": "existing_source_only",
+          "opened_on": null,
+          "scope": "Nguồn baseline, chưa mở lại trong đợt này."
+        }
+      ]
+    },
+    {
+      "sku": "MKT-CASE-ANTEC-AX61-ELITE",
+      "role": "case",
+      "review_status": "manufacturer_and_retailer_opened",
+      "checked_on": "2026-10-11",
+      "baseline_read_on": "2026-10-11",
+      "findings": [
+        "Đã mở trang hãng AX61 ELITE; giới hạn PSU 165 mm bao gồm cáp khi có HDD, 345 mm nếu không HDD. Không thấy tuyên bố form PSU trực tiếp: giữ psu_forms null, ghi điều kiện vào data_source; không sửa 165 thành 345 để tạo PASS.",
+        "Đã mở Laptop World đúng AX61 ELITE đen/4fan, giá khuyến mãi890.000VND đãVAT, giá gạch1.399.000 khôngdùng. Trang ghi Hết hàng: chỉ giáthamkhảo, giữcontact; khôngsuy tồnkhothựctế hômnay từtrang cache."
+      ],
+      "source_urls": [
+        "https://antec.com/product/case/ax61",
+        "https://laptopworld.vn/vo-case-antec-ax61-elite-atx-mau-den-4-fan.html"
+      ],
+      "baseline": {
+        "sku": "MKT-CASE-ANTEC-AX61-ELITE",
+        "name": "Antec AX61 ELITE",
+        "type": "case",
+        "price": 0,
+        "specifications": {
+          "bays_2_5": 2,
+          "bays_3_5": 2,
+          "psu_forms": null,
+          "mainboard_forms": [
+            "ATX",
+            "mATX",
+            "Mini-ITX"
+          ],
+          "max_gpu_length_mm": 320,
+          "max_psu_length_mm": 165,
+          "max_cooler_height_mm": 160
+        },
+        "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Giới hạn PSU 165 mm gồm cáp khi còn HDD, chưa được Rule Engine xét. Khay SSD đếm riêng 2, không cộng khay chung HDD. Chưa xác nhận tồn kho Việt Nam.",
+        "is_active": true,
+        "brand": "Antec",
+        "availability": "contact",
+        "manufacturer_code": "AX61 ELITE",
+        "catalog_sources": [
+          {
+            "url": "https://antec.com/product/case/ax61",
+            "checked_on": "2026-10-08"
+          }
+        ],
+        "price_kind": "unknown",
+        "price_source_url": null,
+        "price_observed_on": null,
+        "price_retailer": null,
+        "price_note": "Chưa xác minh được giá bán lẻ tại Việt Nam. Cần liên hệ; 0 trong database chỉ là giá trị giữ chỗ."
+      },
+      "baseline_image_present": true,
+      "retail_evidence": {
+        "url": "https://laptopworld.vn/vo-case-antec-ax61-elite-atx-mau-den-4-fan.html",
+        "opened_on": "2026-10-11",
+        "retailer": "Laptop World",
+        "matched_variant": "Antec AX61 ELITE / đen / 4 Fan",
+        "displayed_price_vnd": 890000,
+        "raw_price_text": "890.000 VNĐ [Giá đã có VAT]",
+        "raw_availability_text": "Tình trạng: Hết hàng",
+        "conditions": "Giá khuyến mãi hiển thị trên trang; không có chứng cứ tồn kho mới, giữ contact."
+      },
+      "proposed_changes": [
+        "price",
+        "data_source",
+        "catalog_sources",
+        "price_kind",
+        "price_source_url",
+        "price_observed_on",
+        "price_retailer",
+        "price_note"
+      ],
+      "source_reviews": [
+        {
+          "url": "https://antec.com/product/case/ax61",
+          "status": "opened_limited",
+          "opened_on": "2026-10-11",
+          "scope": "Nguồn hãng được mở; phạm vi đối chiếu và giới hạn ghi trong findings, không xác minh toàn bộ."
+        },
+        {
+          "url": "https://laptopworld.vn/vo-case-antec-ax61-elite-atx-mau-den-4-fan.html",
+          "status": "opened_price_reference",
+          "opened_on": "2026-10-11",
+          "scope": "Trang chi tiết đúng mã hiển thị trong retail_evidence; cần xác nhận điều kiện/biến thể/tồn kho."
+        }
+      ]
+    }
+  ],
+  "integration_review": {
+    "applied_patch_count": 4,
+    "baseline_policy": "Baseline ngày 11/10 giữ nguyên. Không coi nguồn đã mở là xác minh toàn bộ thông số/BIOS/tồn kho.",
+    "rejected_price_sku": "MKT-GPU-09-003",
+    "reason": "Nhãn V2 của cửa hàng chưa xác nhận revision đúng mẫu đang lưu. Giá 15.490.000 chỉ nghiên cứu, không nhập.",
+    "reviewed_on": "2026-10-12"
+  }
+}

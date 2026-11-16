@@ -1,0 +1,638 @@
+[
+  {
+    "before": {
+      "sku": "MKT-CPU-265K",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Intel Core Ultra 7 265K Box",
+      "manufacturer_code": "265K/BOX",
+      "specifications": {
+        "model_code": "Intel Core Ultra 7 265K",
+        "socket": "LGA1851",
+        "memory_types": [
+          "DDR5"
+        ],
+        "recommended_psu_w": null,
+        "cores": 20,
+        "threads": 20,
+        "max_boost_mhz": 5500,
+        "integrated_graphics": true,
+        "packaging": "box"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000099656/processors.html",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí.",
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html Chưa xác minh BIOS; không suy PSU từ Processor Base Power. Chưa xác minh giá/tồn kho Việt Nam."
+    },
+    "after": {
+      "sku": "MKT-CPU-265K",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Intel Core Ultra 7 265K Box",
+      "manufacturer_code": "265K/BOX",
+      "specifications": {
+        "model_code": "Intel Core Ultra 7 265K",
+        "socket": "LGA1851",
+        "memory_types": [
+          "DDR5"
+        ],
+        "recommended_psu_w": null,
+        "cores": 20,
+        "threads": 20,
+        "max_boost_mhz": 5500,
+        "integrated_graphics": true,
+        "packaging": "box",
+        "performance_cores": 8,
+        "efficient_cores": 12,
+        "base_clock_mhz": 3900,
+        "efficient_base_clock_mhz": 3300,
+        "l2_cache_mb": 36,
+        "l3_cache_mb": 30,
+        "processor_base_power_w": 125,
+        "maximum_turbo_power_w": 250,
+        "max_memory_gb": 256,
+        "graphics_model": "Intel® Graphics",
+        "architecture": "Arrow Lake"
+      },
+      "price": 10490000,
+      "price_kind": "retail_reference",
+      "availability": "orderable",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000099656/processors.html",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+      "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+      "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-ultra-7-265k",
+      "price_observed_on": "2026-10-09",
+      "price_retailer": "GEARVN"
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-CPU-285K",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Intel Core Ultra 9 285K Box",
+      "manufacturer_code": "285K/BOX",
+      "specifications": {
+        "model_code": "Intel Core Ultra 9 285K",
+        "socket": "LGA1851",
+        "memory_types": [
+          "DDR5"
+        ],
+        "recommended_psu_w": null,
+        "cores": 24,
+        "threads": 24,
+        "max_boost_mhz": 5700,
+        "integrated_graphics": true,
+        "packaging": "box"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000099656/processors.html",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí.",
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html Chưa xác minh BIOS và năng lực tản nhiệt. Chưa xác minh giá/tồn kho Việt Nam."
+    },
+    "after": {
+      "sku": "MKT-CPU-285K",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Intel Core Ultra 9 285K Box",
+      "manufacturer_code": "285K/BOX",
+      "specifications": {
+        "model_code": "Intel Core Ultra 9 285K",
+        "socket": "LGA1851",
+        "memory_types": [
+          "DDR5"
+        ],
+        "recommended_psu_w": null,
+        "cores": 24,
+        "threads": 24,
+        "max_boost_mhz": 5700,
+        "integrated_graphics": true,
+        "packaging": "box",
+        "performance_cores": 8,
+        "efficient_cores": 16,
+        "base_clock_mhz": 3700,
+        "efficient_base_clock_mhz": 3200,
+        "l2_cache_mb": 40,
+        "l3_cache_mb": 36,
+        "processor_base_power_w": 125,
+        "maximum_turbo_power_w": 250,
+        "max_memory_gb": 256,
+        "graphics_model": "Intel® Graphics",
+        "architecture": "Arrow Lake"
+      },
+      "price": 19490000,
+      "price_kind": "retail_reference",
+      "availability": "orderable",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000099656/processors.html",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html",
+          "checked_on": "2026-10-09"
+        }
+      ],
+      "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng. Giá đọc từ danh mục; trang chi tiết bị timeout nên cần đối chiếu lại.",
+      "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+      "price_source_url": "https://gearvn.com/collections/cpu-bo-vi-xu-ly",
+      "price_observed_on": "2026-10-09",
+      "price_retailer": "GEARVN"
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-GPU-ZOTAC-5060TI16-TEOC",
+      "type": "gpu",
+      "brand": "Zotac",
+      "name": "ZOTAC RTX 5060 Ti 16GB Twin Edge OC",
+      "manufacturer_code": "ZT-B50620H-10A",
+      "specifications": {
+        "length_mm": 220.5,
+        "recommended_psu_w": 600,
+        "gpu_chipset": "RTX 5060 Ti",
+        "vram_gb": 16,
+        "vram_type": "GDDR7",
+        "power_connector": "1 x 8-pin"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5060-ti-16gb-twin-edge-oc",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí.",
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5060-ti-16gb-twin-edge-oc Giữ số lẻ mm theo hãng; nguồn hiện trích xuất từ chỉ mục. Engine chưa xét đầu nguồn/độ dày. Chưa xác minh giá/tồn kho Việt Nam."
+    },
+    "after": {
+      "sku": "MKT-GPU-ZOTAC-5060TI16-TEOC",
+      "type": "gpu",
+      "brand": "Zotac",
+      "name": "ZOTAC RTX 5060 Ti 16GB Twin Edge OC",
+      "manufacturer_code": "ZT-B50620H-10A",
+      "specifications": {
+        "length_mm": 220.5,
+        "recommended_psu_w": 600,
+        "gpu_chipset": "RTX 5060 Ti",
+        "vram_gb": 16,
+        "vram_type": "GDDR7",
+        "power_connector": "1 x 8-pin",
+        "chip_vendor": "NVIDIA"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5060-ti-16gb-twin-edge-oc",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí.",
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5060-ti-16gb-twin-edge-oc Giữ số lẻ mm theo hãng; nguồn hiện trích xuất từ chỉ mục. Engine chưa xét đầu nguồn/độ dày. Chưa xác minh giá/tồn kho Việt Nam."
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-GPU-PALIT-5070-GP",
+      "type": "gpu",
+      "brand": "Palit",
+      "name": "Palit GeForce RTX 5070 GamingPro (không OC)",
+      "manufacturer_code": "RTX5070/GamingPro/non-OC",
+      "specifications": {
+        "length_mm": 331.9,
+        "recommended_psu_w": 650,
+        "gpu_chipset": "RTX 5070",
+        "vram_gb": 12,
+        "vram_type": "GDDR7",
+        "power_connector": "1 x 16-pin"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.palit.com/palit/vgapro.php?id=5435&lang=en&tab=sp",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí.",
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.palit.com/palit/vgapro.php?id=5435&lang=en&tab=sp Độ dày 3 slot, chưa xét tự động; không gộp với bản OC. Chưa xác minh giá/tồn kho Việt Nam."
+    },
+    "after": {
+      "sku": "MKT-GPU-PALIT-5070-GP",
+      "type": "gpu",
+      "brand": "Palit",
+      "name": "Palit GeForce RTX 5070 GamingPro (không OC)",
+      "manufacturer_code": "RTX5070/GamingPro/non-OC",
+      "specifications": {
+        "length_mm": 331.9,
+        "recommended_psu_w": 650,
+        "gpu_chipset": "RTX 5070",
+        "vram_gb": 12,
+        "vram_type": "GDDR7",
+        "power_connector": "1 x 16-pin",
+        "chip_vendor": "NVIDIA"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.palit.com/palit/vgapro.php?id=5435&lang=en&tab=sp",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí.",
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.palit.com/palit/vgapro.php?id=5435&lang=en&tab=sp Độ dày 3 slot, chưa xét tự động; không gộp với bản OC. Chưa xác minh giá/tồn kho Việt Nam."
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-GPU-POWERCOLOR-9070XT-REAPER",
+      "type": "gpu",
+      "brand": "PowerColor",
+      "name": "PowerColor Reaper Radeon RX 9070 XT 16GB",
+      "manufacturer_code": "RX9070XT 16G-A",
+      "specifications": {
+        "length_mm": 304,
+        "recommended_psu_w": 750,
+        "gpu_chipset": "RX 9070 XT",
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "power_connector": "2 x 8-pin"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.powercolor.com/product-detail212.htm",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí.",
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.powercolor.com/product-detail212.htm 304 mm gồm bracket; không dùng chiều dài riêng PCB 289 mm. Chưa xác minh giá/tồn kho Việt Nam."
+    },
+    "after": {
+      "sku": "MKT-GPU-POWERCOLOR-9070XT-REAPER",
+      "type": "gpu",
+      "brand": "PowerColor",
+      "name": "PowerColor Reaper Radeon RX 9070 XT 16GB",
+      "manufacturer_code": "RX9070XT 16G-A",
+      "specifications": {
+        "length_mm": 304,
+        "recommended_psu_w": 750,
+        "gpu_chipset": "RX 9070 XT",
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "power_connector": "2 x 8-pin",
+        "chip_vendor": "AMD"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.powercolor.com/product-detail212.htm",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí.",
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.powercolor.com/product-detail212.htm 304 mm gồm bracket; không dùng chiều dài riêng PCB 289 mm. Chưa xác minh giá/tồn kho Việt Nam."
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-GPU-INTEL-B580-LE",
+      "type": "gpu",
+      "brand": "Intel",
+      "name": "Intel Arc B580 Limited Edition",
+      "manufacturer_code": "Arc B580 Limited Edition",
+      "specifications": {
+        "length_mm": 272,
+        "recommended_psu_w": 600,
+        "gpu_chipset": "Arc B580",
+        "power_connector": "1 x 8-pin"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000091128/graphics/intel-arc-dedicated-graphics-family.html",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí.",
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.intel.com/content/www/us/en/support/articles/000091128/graphics/intel-arc-dedicated-graphics-family.html Cần ReBAR, firmware/driver phù hợp; engine chưa kiểm tra các điều kiện này. Chưa xác minh giá/tồn kho Việt Nam."
+    },
+    "after": {
+      "sku": "MKT-GPU-INTEL-B580-LE",
+      "type": "gpu",
+      "brand": "Intel",
+      "name": "Intel Arc B580 Limited Edition",
+      "manufacturer_code": "Arc B580 Limited Edition",
+      "specifications": {
+        "length_mm": 272,
+        "recommended_psu_w": 600,
+        "gpu_chipset": "Arc B580",
+        "power_connector": "1 x 8-pin",
+        "chip_vendor": "Intel"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000091128/graphics/intel-arc-dedicated-graphics-family.html",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa đối chiếu được giá bán lẻ tại Việt Nam; không coi giá 0 lưu nội bộ là miễn phí.",
+      "data_source": "Tham chiếu hãng, đối chiếu 08/10/2026. https://www.intel.com/content/www/us/en/support/articles/000091128/graphics/intel-arc-dedicated-graphics-family.html Cần ReBAR, firmware/driver phù hợp; engine chưa kiểm tra các điều kiện này. Chưa xác minh giá/tồn kho Việt Nam."
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-GPU-XFX-9060XT16-WHITE",
+      "type": "gpu",
+      "brand": "XFX",
+      "name": "XFX Swift RX 9060 XT OC White 16GB",
+      "manufacturer_code": "RX-96TSW16WQ",
+      "specifications": {
+        "gpu_chipset": "Radeon RX 9060 XT",
+        "length_mm": 270,
+        "recommended_psu_w": 450,
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "power_connector": "1 x PCIe 8-pin"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://helpdesk.xfxforce.com/shop/xfx-swift-amd-radeon-rx-9060xt-oc-white-gaming-edition-16gb",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa xác minh được giá bán lẻ tại Việt Nam. Cần liên hệ; 0 trong database chỉ là giá trị giữ chỗ.",
+      "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Chiều dài hãng ghi 27 cm; đã đổi sang 270 mm. Kích thước hãng ghi estimated; cần đo thực tế. Chưa xác nhận tồn kho Việt Nam."
+    },
+    "after": {
+      "sku": "MKT-GPU-XFX-9060XT16-WHITE",
+      "type": "gpu",
+      "brand": "XFX",
+      "name": "XFX Swift RX 9060 XT OC White 16GB",
+      "manufacturer_code": "RX-96TSW16WQ",
+      "specifications": {
+        "gpu_chipset": "Radeon RX 9060 XT",
+        "length_mm": 270,
+        "recommended_psu_w": 450,
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "power_connector": "1 x PCIe 8-pin",
+        "chip_vendor": "AMD"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://helpdesk.xfxforce.com/shop/xfx-swift-amd-radeon-rx-9060xt-oc-white-gaming-edition-16gb",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa xác minh được giá bán lẻ tại Việt Nam. Cần liên hệ; 0 trong database chỉ là giá trị giữ chỗ.",
+      "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Chiều dài hãng ghi 27 cm; đã đổi sang 270 mm. Kích thước hãng ghi estimated; cần đo thực tế. Chưa xác nhận tồn kho Việt Nam."
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-GPU-SAPPHIRE-9070XT-PULSE",
+      "type": "gpu",
+      "brand": "Sapphire",
+      "name": "Sapphire PULSE RX 9070 XT 16GB",
+      "manufacturer_code": "11348-03-20G",
+      "specifications": {
+        "gpu_chipset": "Radeon RX 9070 XT",
+        "length_mm": 320,
+        "recommended_psu_w": null,
+        "vram_gb": 16,
+        "vram_type": "GDDR6"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://nation.sapphiretech.com/de-de/consumer/pulse-radeon-rx-9070-xt-16g-gddr6",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa xác minh được giá bán lẻ tại Việt Nam. Cần liên hệ; 0 trong database chỉ là giá trị giữ chỗ.",
+      "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Trang hãng không mở được toàn bộ; thông số lấy từ trích xuất tìm kiếm hãng. Chưa xác minh nguồn khuyến nghị nên để null. Chưa xác nhận tồn kho Việt Nam."
+    },
+    "after": {
+      "sku": "MKT-GPU-SAPPHIRE-9070XT-PULSE",
+      "type": "gpu",
+      "brand": "Sapphire",
+      "name": "Sapphire PULSE RX 9070 XT 16GB",
+      "manufacturer_code": "11348-03-20G",
+      "specifications": {
+        "gpu_chipset": "Radeon RX 9070 XT",
+        "length_mm": 320,
+        "recommended_psu_w": null,
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "chip_vendor": "AMD"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://nation.sapphiretech.com/de-de/consumer/pulse-radeon-rx-9070-xt-16g-gddr6",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa xác minh được giá bán lẻ tại Việt Nam. Cần liên hệ; 0 trong database chỉ là giá trị giữ chỗ.",
+      "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Trang hãng không mở được toàn bộ; thông số lấy từ trích xuất tìm kiếm hãng. Chưa xác minh nguồn khuyến nghị nên để null. Chưa xác nhận tồn kho Việt Nam."
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-GPU-GB-7600-GAMINGOC",
+      "type": "gpu",
+      "brand": "Gigabyte",
+      "name": "Gigabyte Radeon RX 7600 GAMING OC 8G rev. 1.0/1.1",
+      "manufacturer_code": "GV-R76GAMING OC-8GD/rev.1.0-1.1",
+      "specifications": {
+        "gpu_chipset": "Radeon RX 7600",
+        "length_mm": 282,
+        "recommended_psu_w": 550,
+        "vram_gb": 8,
+        "vram_type": "GDDR6"
+      },
+      "price": 9490000,
+      "price_kind": "retail_reference",
+      "availability": "orderable",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/SP",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Giá hiển thị 9.490.000 ₫, không lấy giá gạch 11.390.000 ₫; cửa hàng có đề nghị giá tốt hơn khi build trọn bộ nhưng chưa công bố con số. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng.",
+      "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Hãng gom revision 1.0/1.1 trên cùng trang; giá cửa hàng không xác nhận revision giao thực tế. Chưa xác nhận tồn kho Việt Nam.",
+      "price_source_url": "https://gearvn.com/products/card-man-hinh-gigabyte-radeon-rx-7600-gaming-oc-8gb-gddr6",
+      "price_observed_on": "2026-10-08",
+      "price_retailer": "GEARVN"
+    },
+    "after": {
+      "sku": "MKT-GPU-GB-7600-GAMINGOC",
+      "type": "gpu",
+      "brand": "Gigabyte",
+      "name": "Gigabyte Radeon RX 7600 GAMING OC 8G rev. 1.0/1.1",
+      "manufacturer_code": "GV-R76GAMING OC-8GD/rev.1.0-1.1",
+      "specifications": {
+        "gpu_chipset": "Radeon RX 7600",
+        "length_mm": 282,
+        "recommended_psu_w": 550,
+        "vram_gb": 8,
+        "vram_type": "GDDR6",
+        "chip_vendor": "AMD"
+      },
+      "price": 9490000,
+      "price_kind": "retail_reference",
+      "availability": "orderable",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/SP",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Giá hiển thị 9.490.000 ₫, không lấy giá gạch 11.390.000 ₫; cửa hàng có đề nghị giá tốt hơn khi build trọn bộ nhưng chưa công bố con số. Giá tham khảo tại thời điểm đối chiếu, dữ liệu web có thể lưu đệm; không xác nhận tồn kho hay cam kết giá giao dịch. Đơn TECHFORGE chỉ mô phỏng.",
+      "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Hãng gom revision 1.0/1.1 trên cùng trang; giá cửa hàng không xác nhận revision giao thực tế. Chưa xác nhận tồn kho Việt Nam.",
+      "price_source_url": "https://gearvn.com/products/card-man-hinh-gigabyte-radeon-rx-7600-gaming-oc-8gb-gddr6",
+      "price_observed_on": "2026-10-08",
+      "price_retailer": "GEARVN"
+    }
+  },
+  {
+    "before": {
+      "sku": "MKT-GPU-PNY-5060TI16-DUAL",
+      "type": "gpu",
+      "brand": "PNY",
+      "name": "PNY GeForce RTX 5060 Ti 16GB Dual Fan",
+      "manufacturer_code": "VCG5060T16DFXPB1",
+      "specifications": {
+        "gpu_chipset": "GeForce RTX 5060 Ti",
+        "length_mm": 245,
+        "recommended_psu_w": 600,
+        "vram_gb": 16,
+        "vram_type": "GDDR7"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.pny.com/File%20Library/Company/Support/Product%20Brochures/GeForce%20Graphics/English/rtx-5060-ti-16gb-dual-fan-brochure.pdf",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa xác minh được giá bán lẻ tại Việt Nam. Cần liên hệ; 0 trong database chỉ là giá trị giữ chỗ.",
+      "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Biến thể Dual Fan không OC; không dùng dữ liệu của bản -O. Chưa xác nhận tồn kho Việt Nam."
+    },
+    "after": {
+      "sku": "MKT-GPU-PNY-5060TI16-DUAL",
+      "type": "gpu",
+      "brand": "PNY",
+      "name": "PNY GeForce RTX 5060 Ti 16GB Dual Fan",
+      "manufacturer_code": "VCG5060T16DFXPB1",
+      "specifications": {
+        "gpu_chipset": "GeForce RTX 5060 Ti",
+        "length_mm": 245,
+        "recommended_psu_w": 600,
+        "vram_gb": 16,
+        "vram_type": "GDDR7",
+        "chip_vendor": "NVIDIA"
+      },
+      "price": 0,
+      "price_kind": "unknown",
+      "availability": "contact",
+      "is_active": true,
+      "catalog_sources": [
+        {
+          "url": "https://www.pny.com/File%20Library/Company/Support/Product%20Brochures/GeForce%20Graphics/English/rtx-5060-ti-16gb-dual-fan-brochure.pdf",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "price_note": "Chưa xác minh được giá bán lẻ tại Việt Nam. Cần liên hệ; 0 trong database chỉ là giá trị giữ chỗ.",
+      "data_source": "Tham chiếu hãng, đối chiếu 2026-10-08. Biến thể Dual Fan không OC; không dùng dữ liệu của bản -O. Chưa xác nhận tồn kho Việt Nam."
+    }
+  }
+]

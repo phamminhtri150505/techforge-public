@@ -1,0 +1,33 @@
+[
+  {
+    "sku": "MKT-RAM-KF432C16BB1-16",
+    "name": "Kingston FURY Beast Black 16GB (1x16) DDR4-3200 CL16",
+    "type": "ram",
+    "brand": "Kingston",
+    "manufacturer_code": "KF432C16BB1/16",
+    "price": 3790000,
+    "price_kind": "retail_reference",
+    "price_source_url": "https://hacom.vn/ram-kingston-fury-beast-16gb-ddr4-3200mhz-kf432c16bb1-16-kf432c16bb-16",
+    "price_observed_on": "2026-10-13",
+    "price_retailer": "HACOM",
+    "price_note": "Giá mua online/bán lẻ hiển thị 3.790.000 VND đã VAT. Không dùng giá build PC 3.590.000 hoặc khuyến mại 2.799.000 chưa rõ điều kiện. Bảng Mã Part ghi KF432C16BB1/16; tiêu đề nhóm cả bao bì WP và URL có mã BB/16 cũ, cần yêu cầu đúng BB1/16 khi mua. Chưa xác nhận tồn kho thực tế; giữ Liên hệ. Giá web có thể lưu đệm, đơn TECHFORGE chỉ mô phỏng.",
+    "availability": "contact",
+    "is_active": true,
+    "specifications": {
+      "memory_type": "DDR4",
+      "capacity_gb": 16,
+      "modules": 1,
+      "speed_mts": 3200,
+      "cas_latency": 16,
+      "profile": "Intel XMP 2.0",
+      "height_mm": 34
+    },
+    "catalog_sources": [
+      {
+        "url": "https://www.kingston.com/datasheets/KF432C16BB1_16.pdf",
+        "checked_on": "2026-10-13"
+      }
+    ],
+    "data_source": "Datasheet Kingston đúng KF432C16BB1/16, đối chiếu 13/10/2026: một thanh 16GB, DDR4-3200 CL16 qua XMP 2.0, chiều cao 34mm. JEDEC mặc định DDR4-2400 CL17; không bảo đảm tự chạy 3200 khi chưa bật/cấu hình XMP. Không phải kit Patriot 2x8GB hay KF432C16BB/16 khác revision. Chưa kiểm tra QVL, kênh nhớ hoặc khoảng hở RAM-tản; ảnh SVG chỉ minh họa nhóm."
+  }
+]

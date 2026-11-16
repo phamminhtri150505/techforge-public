@@ -1,0 +1,70 @@
+/* UI-07: cùng bảng màu hệ thống; toàn bộ quy tắc chỉ có hiệu lực trong trang tham khảo. */
+.reference-page .reference-heading { display:flex; justify-content:space-between; align-items:center; gap:24px; margin:0 0 22px; }
+.reference-page h1 { font-size:32px; letter-spacing:-1px; }
+.reference-page .reference-heading .eyebrow { margin-bottom:6px; }
+.reference-page .reference-overview { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+.reference-page .reference-overview-card { display:flex; flex-direction:column; min-width:0; padding:20px; border:1px solid var(--line); border-radius:18px; background:var(--surface); }
+.reference-page .reference-index { color:var(--accent); font-size:12px; letter-spacing:2px; margin-bottom:8px; }
+.reference-page .reference-overview-card h2 { font-size:21px; line-height:1.35; min-height:57px; margin:0 0 8px; }
+.reference-page .reference-purpose { color:var(--muted); font-size:13px; line-height:1.65; min-height:65px; margin-bottom:12px; }
+.reference-page .reference-metrics { display:flex; gap:12px; justify-content:space-between; font-size:12px; border-block:1px solid var(--line); padding:10px 0; margin-bottom:12px; }
+.reference-page .reference-metrics strong { display:block; font-size:19px; line-height:1.3; color:var(--ink); }
+.reference-page .reference-overview-card .reference-cost { min-height:130px; }
+.reference-page .reference-overview-card .reference-priority { margin-bottom:14px; }
+.reference-page .reference-cost { font-variant-numeric:tabular-nums; }
+.reference-page .reference-total { font-size:27px; font-weight:750; letter-spacing:-.5px; margin-bottom:8px; overflow-wrap:anywhere; }
+.reference-page .reference-meta { display:block; color:var(--muted); font-size:12px; line-height:1.7; overflow-wrap:anywhere; }
+.reference-page .reference-price-warning { font-size:13px; color:var(--bs-warning-text-emphasis); line-height:1.6; margin-bottom:10px; }
+.reference-page .reference-status { display:flex; align-items:center; gap:10px; font-size:12px; margin:14px 0 8px; }
+.reference-page .reference-priority { font-size:13px; color:var(--muted); line-height:1.6; }
+.reference-page .reference-view { display:flex; justify-content:space-between; margin-top:auto; }
+.reference-page .reference-scope { padding:18px 22px; margin:24px 0 32px; border-left:3px solid var(--accent); background:var(--surface); font-size:13px; color:var(--muted); }
+.reference-page .reference-scope strong { color:var(--ink); }
+.reference-page .reference-detail-heading { display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:14px; margin-bottom:18px; }
+.reference-page .reference-detail-heading h2 { font-size:23px; margin:0; }
+.reference-page .reference-detail-heading > span { font-size:13px; }
+.reference-page .reference-detail { border:1px solid var(--line); border-radius:16px; background:var(--surface); margin-bottom:16px; scroll-margin-top:105px; }
+.reference-page .reference-detail > summary { display:flex; align-items:center; gap:20px; padding:22px 24px; cursor:pointer; list-style:none; }
+.reference-page .reference-detail > summary::before { content:'+'; font-size:26px; color:var(--accent); flex-shrink:0; }
+.reference-page .reference-detail[open] > summary::before { content:'−'; }
+.reference-page .reference-detail > summary > span:first-of-type { flex:1; min-width:0; }
+.reference-page .reference-detail-title { display:block; font-size:20px; font-weight:700; }
+.reference-page .reference-detail-caption { display:block; color:var(--muted); font-size:12px; margin-top:4px; }
+.reference-page .reference-detail-body { padding:0 24px 24px; }
+.reference-page .reference-partial { border:1px solid var(--bs-warning-border-subtle); background:var(--bs-warning-bg-subtle); color:var(--bs-warning-text-emphasis); border-radius:10px; padding:16px 20px; margin:18px 0; }
+.reference-page .reference-parts { table-layout:fixed; width:100%; }
+.reference-page .reference-parts th:first-child { width:60%; }
+.reference-page .reference-parts th { font-size:12px; font-weight:600; color:var(--muted); }
+.reference-page .reference-parts td { padding:16px 8px; vertical-align:top; }
+.reference-page .reference-part { align-items:flex-start; gap:12px; }
+.reference-page .reference-part img { width:64px; height:64px; }
+.reference-page .reference-part > div { min-width:0; overflow-wrap:anywhere; }
+.reference-page .reference-part a { font-size:14px; font-weight:650; line-height:1.65; }
+.reference-page .reference-price { white-space:normal; font-size:16px; }
+.reference-page .reference-price-kind, .reference-page .reference-availability { display:block; font-size:12px; line-height:1.6; margin:5px 0; }
+.reference-page .reference-price-note { margin-top:6px; font-size:12px; }
+.reference-page .reference-price-note > summary { color:var(--muted); cursor:pointer; }
+.reference-page .reference-purchase { background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:20px; }
+.reference-page .reference-confirm { border-top:1px solid var(--line); margin-top:18px; padding-top:18px; }
+.reference-page .reference-confirm > summary { display:list-item; list-style-position:inside; cursor:pointer; }
+.reference-page .reference-confirm-body { padding-top:18px; font-size:13px; line-height:1.75; }
+.reference-page .reference-confirm h3 { font-size:17px; }
+.reference-page .reference-report { border-top:1px solid var(--line); padding-top:24px; margin-top:20px; }
+.reference-page .reference-report-heading { display:flex; align-items:center; gap:16px; margin-bottom:14px; }
+.reference-page .reference-report-heading h3 { font-size:21px; margin:0; }
+.reference-page .reference-rule-counts { display:flex; flex-wrap:wrap; gap:20px; font-size:12px; }
+.reference-page .reference-rule-group { border:1px solid var(--line); padding:18px; border-radius:12px; margin:14px 0; }
+.reference-page .reference-conflict { border-left:4px solid var(--bs-danger-text-emphasis); }
+.reference-page .reference-rule-group > summary { cursor:pointer; font-weight:650; }
+.reference-page .reference-conflict > h4 { font-size:17px; color:var(--bs-danger-text-emphasis); }
+.reference-page .reference-rule-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:16px; }
+.reference-page .rule-card { min-width:0; margin:0; }
+.reference-page .rule-card h4 { font-size:14px; font-weight:650; margin:0; line-height:1.6; }
+.reference-page .reference-back { display:inline-block; font-size:13px; margin-top:16px; }
+.reference-page summary:focus-visible { outline:2px solid var(--accent); outline-offset:4px; border-radius:8px; }
+@media (max-width:991px) {
+    .reference-page .reference-overview { grid-template-columns:1fr; }
+    .reference-page .reference-purpose, .reference-page .reference-overview-card h2 { min-height:0; }
+    .reference-page .reference-heading { flex-wrap:wrap; }
+}
+@media (max-width:767px) { .reference-page .reference-rule-grid { grid-template-columns:1fr; } }

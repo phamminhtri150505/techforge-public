@@ -1,0 +1,1554 @@
+[
+  {
+    "sku": "MKT-CPU-I3-14100F-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i3-14100F",
+    "manufacturer_code": "i3-14100F/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i3-14100F",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 4,
+      "threads": 8,
+      "performance_cores": 4,
+      "efficient_cores": 0,
+      "max_boost_mhz": 4700,
+      "base_clock_mhz": 3500,
+      "efficient_base_clock_mhz": null,
+      "l2_cache_mb": 5,
+      "l3_cache_mb": 12,
+      "processor_base_power_w": 58,
+      "maximum_turbo_power_w": 110,
+      "max_memory_gb": 192,
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 3190000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236786/intel-core-i3-processor-14100f-12m-cache-up-to-4-70-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i3-14100f",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I3-13100F-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i3-13100F",
+    "manufacturer_code": "i3-13100F/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i3-13100F",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 4,
+      "threads": 8,
+      "performance_cores": 4,
+      "efficient_cores": 0,
+      "max_boost_mhz": 4500,
+      "base_clock_mhz": 3400,
+      "efficient_base_clock_mhz": null,
+      "l2_cache_mb": 5,
+      "l3_cache_mb": 12,
+      "processor_base_power_w": 58,
+      "maximum_turbo_power_w": 110,
+      "max_memory_gb": 192,
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 3290000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/230576/intel-core-i313100f-processor-12m-cache-up-to-4-50-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/intel-core-i3-13100f",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I3-14100-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i3-14100",
+    "manufacturer_code": "i3-14100/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i3-14100",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 4,
+      "threads": 8,
+      "performance_cores": 4,
+      "efficient_cores": 0,
+      "max_boost_mhz": 4700,
+      "base_clock_mhz": 3500,
+      "efficient_base_clock_mhz": null,
+      "l2_cache_mb": 5,
+      "l3_cache_mb": 12,
+      "processor_base_power_w": 60,
+      "maximum_turbo_power_w": 110,
+      "max_memory_gb": 192,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® UHD Graphics 730",
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 4790000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236774/intel-core-i3-processor-14100-12m-cache-up-to-4-70-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i3-14100",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I5-12400-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i5-12400",
+    "manufacturer_code": "i5-12400/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i5-12400",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 6,
+      "threads": 12,
+      "performance_cores": 6,
+      "efficient_cores": 0,
+      "max_boost_mhz": 4400,
+      "base_clock_mhz": 2500,
+      "efficient_base_clock_mhz": null,
+      "l2_cache_mb": 7.5,
+      "l3_cache_mb": 18,
+      "processor_base_power_w": 65,
+      "maximum_turbo_power_w": 117,
+      "max_memory_gb": 128,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® UHD Graphics 730",
+      "architecture": "Alder Lake",
+      "packaging": null
+    },
+    "price": 5690000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/134586/intel-core-i512400-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/intel-core-i5-12400",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I5-12400F-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i5-12400F",
+    "manufacturer_code": "i5-12400F/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i5-12400F",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 6,
+      "threads": 12,
+      "performance_cores": 6,
+      "efficient_cores": 0,
+      "max_boost_mhz": 4400,
+      "base_clock_mhz": 2500,
+      "efficient_base_clock_mhz": null,
+      "l2_cache_mb": 7.5,
+      "l3_cache_mb": 18,
+      "processor_base_power_w": 65,
+      "maximum_turbo_power_w": 117,
+      "max_memory_gb": 128,
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "architecture": "Alder Lake",
+      "packaging": null
+    },
+    "price": 4590000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng. Giá đọc từ danh mục; trang chi tiết bị timeout nên cần đối chiếu lại.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/collections/cpu-bo-vi-xu-ly?page=2",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I5-14400-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i5-14400",
+    "manufacturer_code": "i5-14400/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i5-14400",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 10,
+      "threads": 16,
+      "performance_cores": 6,
+      "efficient_cores": 4,
+      "max_boost_mhz": 4700,
+      "base_clock_mhz": 2500,
+      "efficient_base_clock_mhz": 1800,
+      "l2_cache_mb": 9.5,
+      "l3_cache_mb": 20,
+      "processor_base_power_w": 65,
+      "maximum_turbo_power_w": 148,
+      "max_memory_gb": 192,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® UHD Graphics 730",
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 7690000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i5-14400",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I5-14400F-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i5-14400F",
+    "manufacturer_code": "i5-14400F/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i5-14400F",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 10,
+      "threads": 16,
+      "performance_cores": 6,
+      "efficient_cores": 4,
+      "max_boost_mhz": 4700,
+      "base_clock_mhz": 2500,
+      "efficient_base_clock_mhz": 1800,
+      "l2_cache_mb": 9.5,
+      "l3_cache_mb": 20,
+      "processor_base_power_w": 65,
+      "maximum_turbo_power_w": 148,
+      "max_memory_gb": 192,
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 5190000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236777/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i5-14400f",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I5-14500-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i5-14500",
+    "manufacturer_code": "i5-14500/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i5-14500",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 14,
+      "threads": 20,
+      "performance_cores": 6,
+      "efficient_cores": 8,
+      "max_boost_mhz": 5000,
+      "base_clock_mhz": 2600,
+      "efficient_base_clock_mhz": 1900,
+      "l2_cache_mb": 11.5,
+      "l3_cache_mb": 24,
+      "processor_base_power_w": 65,
+      "maximum_turbo_power_w": 154,
+      "max_memory_gb": 192,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® UHD Graphics 770",
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 6690000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236784/intel-core-i5-processor-14500-24m-cache-up-to-5-00-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i5-14500",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I5-14600K-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i5-14600K",
+    "manufacturer_code": "i5-14600K/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i5-14600K",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 14,
+      "threads": 20,
+      "performance_cores": 6,
+      "efficient_cores": 8,
+      "max_boost_mhz": 5300,
+      "base_clock_mhz": 3500,
+      "efficient_base_clock_mhz": 2600,
+      "l2_cache_mb": 20,
+      "l3_cache_mb": 24,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 181,
+      "max_memory_gb": 192,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® UHD Graphics 770",
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 6690000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236799/intel-core-i5-processor-14600k-24m-cache-up-to-5-30-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/intel-core-i5-14600k",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I5-14600KF-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i5-14600KF",
+    "manufacturer_code": "i5-14600KF/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i5-14600KF",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 14,
+      "threads": 20,
+      "performance_cores": 6,
+      "efficient_cores": 8,
+      "max_boost_mhz": 5300,
+      "base_clock_mhz": 3500,
+      "efficient_base_clock_mhz": 2600,
+      "l2_cache_mb": 20,
+      "l3_cache_mb": 24,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 181,
+      "max_memory_gb": 192,
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 7990000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/intel-core-i5-14600kf",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I7-14700-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i7-14700",
+    "manufacturer_code": "i7-14700/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i7-14700",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 20,
+      "threads": 28,
+      "performance_cores": 8,
+      "efficient_cores": 12,
+      "max_boost_mhz": 5400,
+      "base_clock_mhz": 2100,
+      "efficient_base_clock_mhz": 1500,
+      "l2_cache_mb": 28,
+      "l3_cache_mb": 33,
+      "processor_base_power_w": 65,
+      "maximum_turbo_power_w": 219,
+      "max_memory_gb": 192,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® UHD Graphics 770",
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 11990000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236781/intel-core-i7-processor-14700-33m-cache-up-to-5-40-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i7-14700",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I7-14700F-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i7-14700F",
+    "manufacturer_code": "i7-14700F/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i7-14700F",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 20,
+      "threads": 28,
+      "performance_cores": 8,
+      "efficient_cores": 12,
+      "max_boost_mhz": 5400,
+      "base_clock_mhz": 2100,
+      "efficient_base_clock_mhz": 1500,
+      "l2_cache_mb": 28,
+      "l3_cache_mb": 33,
+      "processor_base_power_w": 65,
+      "maximum_turbo_power_w": 219,
+      "max_memory_gb": 192,
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 10990000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236854/intel-core-i7-processor-14700f-33m-cache-up-to-5-40-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-i7-14700f",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I7-14700K-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i7-14700K",
+    "manufacturer_code": "i7-14700K/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i7-14700K",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 20,
+      "threads": 28,
+      "performance_cores": 8,
+      "efficient_cores": 12,
+      "max_boost_mhz": 5600,
+      "base_clock_mhz": 3400,
+      "efficient_base_clock_mhz": 2500,
+      "l2_cache_mb": 28,
+      "l3_cache_mb": 33,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 253,
+      "max_memory_gb": 192,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® UHD Graphics 770",
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 13990000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/intel-core-i7-14700k",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I7-14700KF-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i7-14700KF",
+    "manufacturer_code": "i7-14700KF/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i7-14700KF",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 20,
+      "threads": 28,
+      "performance_cores": 8,
+      "efficient_cores": 12,
+      "max_boost_mhz": 5600,
+      "base_clock_mhz": 3400,
+      "efficient_base_clock_mhz": 2500,
+      "l2_cache_mb": 28,
+      "l3_cache_mb": 33,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 253,
+      "max_memory_gb": 192,
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 11490000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/intel-core-i7-14700kf",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I9-14900-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i9-14900",
+    "manufacturer_code": "i9-14900/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i9-14900",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 24,
+      "threads": 32,
+      "performance_cores": 8,
+      "efficient_cores": 16,
+      "max_boost_mhz": 5800,
+      "base_clock_mhz": 2000,
+      "efficient_base_clock_mhz": 1500,
+      "l2_cache_mb": 32,
+      "l3_cache_mb": 36,
+      "processor_base_power_w": 65,
+      "maximum_turbo_power_w": 219,
+      "max_memory_gb": 192,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® UHD Graphics 770",
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 0,
+    "price_kind": "unknown",
+    "availability": "contact",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236793/intel-core-i9-processor-14900-36m-cache-up-to-5-80-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Chưa đối chiếu được giá đúng biến thể; 0 nội bộ không phải miễn phí.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho."
+  },
+  {
+    "sku": "MKT-CPU-I9-14900K-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i9-14900K",
+    "manufacturer_code": "i9-14900K/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i9-14900K",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 24,
+      "threads": 32,
+      "performance_cores": 8,
+      "efficient_cores": 16,
+      "max_boost_mhz": 6000,
+      "base_clock_mhz": 3200,
+      "efficient_base_clock_mhz": 2400,
+      "l2_cache_mb": 32,
+      "l3_cache_mb": 36,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 253,
+      "max_memory_gb": 192,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® UHD Graphics 770",
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 16990000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236773/intel-core-i9-processor-14900k-36m-cache-up-to-6-00-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/intel-core-i9-14900k",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-I9-14900KF-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core i9-14900KF",
+    "manufacturer_code": "i9-14900KF/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core i9-14900KF",
+      "socket": "LGA1700",
+      "memory_types": [
+        "DDR4",
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 24,
+      "threads": 32,
+      "performance_cores": 8,
+      "efficient_cores": 16,
+      "max_boost_mhz": 6000,
+      "base_clock_mhz": 3200,
+      "efficient_base_clock_mhz": 2400,
+      "l2_cache_mb": 32,
+      "l3_cache_mb": 36,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 253,
+      "max_memory_gb": 192,
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "architecture": "Raptor Lake",
+      "packaging": null
+    },
+    "price": 16490000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236787/intel-core-i9-processor-14900kf-36m-cache-up-to-6-00-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/intel-core-i9-14900kf",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-245K-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core Ultra 5 245K",
+    "manufacturer_code": "245K/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core Ultra 5 245K",
+      "socket": "LGA1851",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 14,
+      "threads": 14,
+      "performance_cores": 6,
+      "efficient_cores": 8,
+      "max_boost_mhz": 5200,
+      "base_clock_mhz": 4200,
+      "efficient_base_clock_mhz": 3600,
+      "l2_cache_mb": 26,
+      "l3_cache_mb": 24,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 159,
+      "max_memory_gb": 256,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® Graphics",
+      "architecture": "Arrow Lake",
+      "packaging": null
+    },
+    "price": 6690000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng. Giá đọc từ danh mục; trang chi tiết bị timeout nên cần đối chiếu lại.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/collections/cpu-bo-vi-xu-ly",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-245KF-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core Ultra 5 245KF",
+    "manufacturer_code": "245KF/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core Ultra 5 245KF",
+      "socket": "LGA1851",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 14,
+      "threads": 14,
+      "performance_cores": 6,
+      "efficient_cores": 8,
+      "max_boost_mhz": 5200,
+      "base_clock_mhz": 4200,
+      "efficient_base_clock_mhz": 3600,
+      "l2_cache_mb": 26,
+      "l3_cache_mb": 24,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 159,
+      "max_memory_gb": 256,
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "architecture": "Arrow Lake",
+      "packaging": null
+    },
+    "price": 6290000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-ultra-5-245kf",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-265K",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core Ultra 7 265K Box",
+    "manufacturer_code": "265K/BOX",
+    "specifications": {
+      "model_code": "Intel Core Ultra 7 265K",
+      "socket": "LGA1851",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 20,
+      "threads": 20,
+      "performance_cores": 8,
+      "efficient_cores": 12,
+      "max_boost_mhz": 5500,
+      "base_clock_mhz": 3900,
+      "efficient_base_clock_mhz": 3300,
+      "l2_cache_mb": 36,
+      "l3_cache_mb": 30,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 250,
+      "max_memory_gb": 256,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® Graphics",
+      "architecture": "Arrow Lake",
+      "packaging": "box"
+    },
+    "price": 10490000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-ultra-7-265k",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-285K",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core Ultra 9 285K Box",
+    "manufacturer_code": "285K/BOX",
+    "specifications": {
+      "model_code": "Intel Core Ultra 9 285K",
+      "socket": "LGA1851",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 24,
+      "threads": 24,
+      "performance_cores": 8,
+      "efficient_cores": 16,
+      "max_boost_mhz": 5700,
+      "base_clock_mhz": 3700,
+      "efficient_base_clock_mhz": 3200,
+      "l2_cache_mb": 40,
+      "l3_cache_mb": 36,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 250,
+      "max_memory_gb": 256,
+      "integrated_graphics": true,
+      "graphics_model": "Intel® Graphics",
+      "architecture": "Arrow Lake",
+      "packaging": "box"
+    },
+    "price": 19490000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng. Giá đọc từ danh mục; trang chi tiết bị timeout nên cần đối chiếu lại.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/collections/cpu-bo-vi-xu-ly",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-265KF-RETAIL",
+    "type": "cpu",
+    "brand": "Intel",
+    "name": "Intel Core Ultra 7 265KF",
+    "manufacturer_code": "265KF/RETAIL",
+    "specifications": {
+      "model_code": "Intel Core Ultra 7 265KF",
+      "socket": "LGA1851",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 20,
+      "threads": 20,
+      "performance_cores": 8,
+      "efficient_cores": 12,
+      "max_boost_mhz": 5500,
+      "base_clock_mhz": 3900,
+      "efficient_base_clock_mhz": 3300,
+      "l2_cache_mb": 36,
+      "l3_cache_mb": 30,
+      "processor_base_power_w": 125,
+      "maximum_turbo_power_w": 250,
+      "max_memory_gb": 256,
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "architecture": "Arrow Lake",
+      "packaging": null
+    },
+    "price": 9690000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo trang GEARVN, không phải báo giá/tồn kho. Đóng gói trên trang bán chưa xác minh; cần xác nhận Box/Tray, bảo hành và giá trước mua. Nhận đơn trong TECHFORGE chỉ mô phỏng.",
+    "data_source": "Đối chiếu Intel ngày 09/10/2026. Công suất cơ bản/Turbo là mô tả CPU, không dùng suy PSU. Chưa xác minh mainboard/BIOS và tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-intel-core-ultra-7-265kf",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-5500-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 5 5500",
+    "manufacturer_code": "Ryzen 5 5500/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 5 5500",
+      "socket": "AM4",
+      "memory_types": [
+        "DDR4"
+      ],
+      "recommended_psu_w": null,
+      "cores": 6,
+      "threads": 12,
+      "max_boost_mhz": 4200,
+      "base_clock_mhz": 3600,
+      "l2_cache_mb": 3,
+      "l3_cache_mb": 16,
+      "tdp_w": 65,
+      "architecture": "Zen 3",
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "max_memory_gb": 128,
+      "packaging": null,
+      "boxed_product_code": "100-100000457BOX",
+      "tray_product_code": null
+    },
+    "price": 0,
+    "price_kind": "unknown",
+    "availability": "contact",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+        "checked_on": "2026-10-09"
+      },
+      {
+        "url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-5-5500-3-6ghz-boost-4-2ghz-6-nhan-12-luong-16mb-am4",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Chưa xác minh giá bán lẻ đúng biến thể; Liên hệ. Không coi 0 là miễn phí. Danh mục hiện 2.690.000đ nhưng trang chi tiết hiện 0đ; không chọn một giá khi nguồn mâu thuẫn.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho."
+  },
+  {
+    "sku": "MKT-CPU-5500GT-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 5 5500GT",
+    "manufacturer_code": "Ryzen 5 5500GT/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 5 5500GT",
+      "socket": "AM4",
+      "memory_types": [
+        "DDR4"
+      ],
+      "recommended_psu_w": null,
+      "cores": 6,
+      "threads": 12,
+      "max_boost_mhz": 4400,
+      "base_clock_mhz": 3600,
+      "l2_cache_mb": 3,
+      "l3_cache_mb": 16,
+      "tdp_w": 65,
+      "architecture": "Zen 3",
+      "integrated_graphics": true,
+      "graphics_model": "Radeon Graphics",
+      "max_memory_gb": 128,
+      "packaging": null,
+      "boxed_product_code": "100-100001489BOX",
+      "tray_product_code": null
+    },
+    "price": 3990000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-5-5500gt-3-6ghz-boost-4-4ghz-6-nhan-12-luong-19mb-am4",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-5600GT-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 5 5600GT",
+    "manufacturer_code": "Ryzen 5 5600GT/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 5 5600GT",
+      "socket": "AM4",
+      "memory_types": [
+        "DDR4"
+      ],
+      "recommended_psu_w": null,
+      "cores": 6,
+      "threads": 12,
+      "max_boost_mhz": 4600,
+      "base_clock_mhz": 3600,
+      "l2_cache_mb": 3,
+      "l3_cache_mb": 16,
+      "tdp_w": 65,
+      "architecture": "Zen 3",
+      "integrated_graphics": true,
+      "graphics_model": "Radeon Graphics",
+      "max_memory_gb": 128,
+      "packaging": null,
+      "boxed_product_code": "100-100001488BOX",
+      "tray_product_code": null
+    },
+    "price": 4490000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600gt.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-5-5600gt",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-7500F-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 5 7500F Tray",
+    "manufacturer_code": "100-000000597",
+    "specifications": {
+      "model_code": "AMD Ryzen 5 7500F",
+      "socket": "AM5",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 6,
+      "threads": 12,
+      "max_boost_mhz": 5000,
+      "base_clock_mhz": 3700,
+      "l2_cache_mb": 6,
+      "l3_cache_mb": 32,
+      "tdp_w": 65,
+      "architecture": "Zen 4",
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "max_memory_gb": 128,
+      "packaging": "tray",
+      "boxed_product_code": "100-100000597BOX",
+      "tray_product_code": "100-000000597"
+    },
+    "price": 4790000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-5-7500f-3-7ghz-boost-5-0ghz-6-nhan-12-luong-38mb-am5-tray",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-8400F-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 5 8400F",
+    "manufacturer_code": "Ryzen 5 8400F/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 5 8400F",
+      "socket": "AM5",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 6,
+      "threads": 12,
+      "max_boost_mhz": 4700,
+      "base_clock_mhz": 4200,
+      "l2_cache_mb": 6,
+      "l3_cache_mb": 16,
+      "tdp_w": 65,
+      "architecture": "Zen 4",
+      "integrated_graphics": false,
+      "graphics_model": null,
+      "max_memory_gb": 256,
+      "packaging": null,
+      "boxed_product_code": "100-100001591BOX",
+      "tray_product_code": null
+    },
+    "price": 4490000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8400f.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-5-8400f",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-8600G-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 5 8600G",
+    "manufacturer_code": "Ryzen 5 8600G/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 5 8600G",
+      "socket": "AM5",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 6,
+      "threads": 12,
+      "max_boost_mhz": 5000,
+      "base_clock_mhz": 4300,
+      "l2_cache_mb": 6,
+      "l3_cache_mb": 16,
+      "tdp_w": 65,
+      "architecture": "Zen 4",
+      "integrated_graphics": true,
+      "graphics_model": "Radeon 760M",
+      "max_memory_gb": 256,
+      "packaging": null,
+      "boxed_product_code": "100-100001237BOX",
+      "tray_product_code": null
+    },
+    "price": 6990000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8600g.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng. Giá danh mục, trang chi tiết timeout.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+    "price_source_url": "https://gearvn.com/collections/cpu-bo-vi-xu-ly",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-8700G-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 7 8700G",
+    "manufacturer_code": "Ryzen 7 8700G/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 7 8700G",
+      "socket": "AM5",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 8,
+      "threads": 16,
+      "max_boost_mhz": 5100,
+      "base_clock_mhz": 4200,
+      "l2_cache_mb": 8,
+      "l3_cache_mb": 16,
+      "tdp_w": 65,
+      "architecture": "Zen 4",
+      "integrated_graphics": true,
+      "graphics_model": "Radeon 780M",
+      "max_memory_gb": 256,
+      "packaging": null,
+      "boxed_product_code": "100-100001236SBX",
+      "tray_product_code": null
+    },
+    "price": 9490000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-7-8700g",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-7800X3D-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 7 7800X3D",
+    "manufacturer_code": "Ryzen 7 7800X3D/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 7 7800X3D",
+      "socket": "AM5",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 8,
+      "threads": 16,
+      "max_boost_mhz": 5000,
+      "base_clock_mhz": 4200,
+      "l2_cache_mb": 8,
+      "l3_cache_mb": 96,
+      "tdp_w": 120,
+      "architecture": "Zen 4",
+      "integrated_graphics": true,
+      "graphics_model": "Radeon Graphics",
+      "max_memory_gb": 128,
+      "packaging": null,
+      "boxed_product_code": "100-100000910WOF",
+      "tray_product_code": null
+    },
+    "price": 11990000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+    "price_source_url": "https://gearvn.com/products/amd-ryzen-7-7800x3d",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-9800X3D-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 7 9800X3D",
+    "manufacturer_code": "Ryzen 7 9800X3D/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 7 9800X3D",
+      "socket": "AM5",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 8,
+      "threads": 16,
+      "max_boost_mhz": 5200,
+      "base_clock_mhz": 4700,
+      "l2_cache_mb": 8,
+      "l3_cache_mb": 96,
+      "tdp_w": 120,
+      "architecture": "Zen 5",
+      "integrated_graphics": true,
+      "graphics_model": "Radeon Graphics",
+      "max_memory_gb": 256,
+      "packaging": null,
+      "boxed_product_code": "100-100001084WOF",
+      "tray_product_code": null
+    },
+    "price": 13890000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-7-9800x3d",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-9850X3D-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 7 9850X3D",
+    "manufacturer_code": "Ryzen 7 9850X3D/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 7 9850X3D",
+      "socket": "AM5",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 8,
+      "threads": 16,
+      "max_boost_mhz": 5600,
+      "base_clock_mhz": 4700,
+      "l2_cache_mb": 8,
+      "l3_cache_mb": 96,
+      "tdp_w": 120,
+      "architecture": "Zen 5",
+      "integrated_graphics": true,
+      "graphics_model": "Radeon Graphics",
+      "max_memory_gb": 256,
+      "packaging": null,
+      "boxed_product_code": "100-100001973WOF",
+      "tray_product_code": null
+    },
+    "price": 15990000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-7-9850x3d-4-7ghz-boost-5-6ghz-8-nhan-16-luong-104mb-am5",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  },
+  {
+    "sku": "MKT-CPU-7900-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 9 7900",
+    "manufacturer_code": "Ryzen 9 7900/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 9 7900",
+      "socket": "AM5",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 12,
+      "threads": 24,
+      "max_boost_mhz": 5400,
+      "base_clock_mhz": 3700,
+      "l2_cache_mb": 12,
+      "l3_cache_mb": 64,
+      "tdp_w": 65,
+      "architecture": "Zen 4",
+      "integrated_graphics": true,
+      "graphics_model": "Radeon Graphics",
+      "max_memory_gb": 128,
+      "packaging": null,
+      "boxed_product_code": "100-100000590WOF",
+      "tray_product_code": null
+    },
+    "price": 0,
+    "price_kind": "unknown",
+    "availability": "contact",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Chưa xác minh giá bán lẻ đúng biến thể; Liên hệ. Không coi 0 là miễn phí.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho."
+  },
+  {
+    "sku": "MKT-CPU-9950X-RETAIL",
+    "type": "cpu",
+    "brand": "AMD",
+    "name": "AMD Ryzen 9 9950X",
+    "manufacturer_code": "Ryzen 9 9950X/RETAIL",
+    "specifications": {
+      "model_code": "AMD Ryzen 9 9950X",
+      "socket": "AM5",
+      "memory_types": [
+        "DDR5"
+      ],
+      "recommended_psu_w": null,
+      "cores": 16,
+      "threads": 32,
+      "max_boost_mhz": 5700,
+      "base_clock_mhz": 4300,
+      "l2_cache_mb": 16,
+      "l3_cache_mb": 64,
+      "tdp_w": 170,
+      "architecture": "Zen 5",
+      "integrated_graphics": true,
+      "graphics_model": "Radeon Graphics",
+      "max_memory_gb": 256,
+      "packaging": null,
+      "boxed_product_code": "100-100001277WOF",
+      "tray_product_code": null
+    },
+    "price": 17990000,
+    "price_kind": "retail_reference",
+    "availability": "orderable",
+    "is_active": true,
+    "catalog_sources": [
+      {
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+        "checked_on": "2026-10-09"
+      }
+    ],
+    "price_note": "Giá tham khảo GEARVN, không xác nhận tồn kho. Box/Tray cần đối chiếu cửa hàng nếu chưa ghi trong tên; mã đóng hộp hãng là thông tin tham chiếu. Đơn TECHFORGE chỉ mô phỏng.",
+    "data_source": "Thông số hãng AMD đối chiếu 09/10/2026. TDP là thông số thiết kế nhiệt, không phải công suất đỉnh hay PSU cả máy. Chưa xác minh BIOS/tồn kho.",
+    "price_source_url": "https://gearvn.com/products/bo-vi-xu-ly-amd-ryzen-9-9950x",
+    "price_observed_on": "2026-10-09",
+    "price_retailer": "GEARVN"
+  }
+]

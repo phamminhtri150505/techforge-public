@@ -1,0 +1,9 @@
+.product-create { max-width: 1100px; margin-inline: auto; }
+.product-create .summary-card { padding: 28px; }
+.product-create h2 { margin-bottom: 24px; }
+.product-create .form-text { color: var(--muted); line-height: 1.6; margin-top: 8px; }
+.product-create .product-extra-fields > summary,
+.product-create .product-cpu-support > summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+.product-create .product-support-row { border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin: 16px 0; }
+.product-create [hidden] { display: none !important; }
+.product-create fieldset { min-width: 0; }

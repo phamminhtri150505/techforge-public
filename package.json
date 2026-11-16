@@ -1,0 +1,9 @@
+{
+  "name": "techforge",
+  "private": true,
+  "type": "module",
+  "description": "Blade + Bootstrap 5.3 + JavaScript thuan; khong can buoc build frontend",
+  "scripts": {
+    "check": "node --check public/js/builder.js"
+  }
+}
