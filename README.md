@@ -81,6 +81,10 @@ Tích hợp trợ lý LLM là tùy chọn và tắt mặc định. Hệ thống 
 
 Bản công khai chỉ đóng gói những ảnh sản phẩm có căn cứ phân phối, có [danh sách ghi công và giấy phép](docs/IMAGE_CREDITS.md). Linh kiện thiếu ảnh vẫn có đủ dữ liệu danh mục và Builder. Giao diện dùng minh họa riêng hoặc hiển thị trạng thái chưa có ảnh. Giấy phép của ảnh và thư viện áp dụng riêng cho từng tài nguyên. Bản công khai phục vụ việc xem và nghiệm thu đồ án.
 
-## Phương pháp phát triển
+## Quy trình phát triển và kiểm chứng
 
-Dự án được phát triển với sự hỗ trợ đáng kể của các công cụ AI trong các bước phân tích, viết mã, kiểm thử và chuẩn bị tài liệu.
+TECHFORGE được xây dựng từ nhu cầu tra cứu linh kiện, tự lựa chọn cấu hình PC theo ngân sách và kiểm tra tương thích trước khi quyết định. Người thực hiện đề tài xác định mục tiêu, phạm vi và các yêu cầu chức năng; lựa chọn phương án giao diện, phản hồi các vấn đề phát sinh và xem xét kết quả nghiệm thu.
+
+Trong quá trình hiện thực hóa, **các công cụ AI tạo sinh được sử dụng đáng kể**, đặc biệt OpenAI Codex hỗ trợ tạo và chỉnh sửa phần lớn mã nguồn theo yêu cầu mô tả bằng ngôn ngữ tự nhiên. ChatGPT hỗ trợ phân tích, rà soát giao diện và biên soạn tài liệu. Việc sử dụng AI được công khai nhằm làm rõ phương pháp thực hiện, không đồng nghĩa với việc toàn bộ mã nguồn được viết thủ công.
+
+Các chức năng và kết quả được trình bày trong đồ án có căn cứ đối chiếu từ mã nguồn, bộ kiểm thử tự động và ảnh nghiệm thu. **Kết quả kiểm thử trong môi trường QA không thay thế cho đánh giá độc lập hoặc kiểm chứng hiệu quả thực tế với người dùng.**
